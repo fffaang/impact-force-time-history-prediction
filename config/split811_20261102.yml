@@ -1,0 +1,41 @@
+version: split811-present10-20261102-v1
+split_seeds: [20261102, 20261103, 20261104]
+seeds: [20260519, 20260520, 20260521]
+structures: [impulse, fullness]
+feature_sets: [raw, physics]
+templates: [mean, analog]
+dimensions: [4, 8, 12]
+widths: [32, 64]
+calibration_modes: [fixed, limited]
+anchor_loss_weight: 10.0
+positive_correction_factor: 1.1
+bounded_logit_correction: 0.2
+canonical_points: 201
+neighbor_count: 7
+maximum_epochs: 2000
+early_stopping_patience: 100
+early_stopping_check_every: 10
+learning_rate: 0.001
+weight_decay: 0.0001
+tail_loss_weight: 0.1
+residual_loss_weight: 0.0001
+anchor_protection_R2_drop: 0.02
+anchor_protection_MdRE_factor: 1.05
+near_best_median_R2: 0.01
+target_r2: 0.8
+maximum_negative_curves: 0
+bootstrap_replicates: 2000
+device: cuda
+cuda_graph: true
+cpu_workers: 8
+worker_threads: 2
+cpu_threads: 2
+budget_hours: {diagnose: 4, search: 30, refit: 8, evaluate: 6, total: 48}
+holdout_policy: all_three_models_frozen_before_any_holdout_inference
+data_policy: original_189_unchanged_plus_native_origin_present10
+support_policy: original_archive_support_preserved_present10_existing_5pct_contact_rule
+role_quotas:
+  primary: [135, 17, 17]
+  numerical_aux: [14, 2, 2]
+  shape_aux: [9, 1, 1]
+nested_quotas: {primary: 111, numerical_aux: 12, shape_aux: 8}

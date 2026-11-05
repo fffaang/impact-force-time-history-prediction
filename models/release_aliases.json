@@ -1,0 +1,110 @@
+[
+  {
+    "path": "models/20261102/A_final.joblib",
+    "canonical_path": "models/20261102/A_final.joblib",
+    "sha256": "068e0064f9dc9b2c2d4d6e888139730aaad02c3e9e0d346ef62165778f1abd57",
+    "bytes": 163156846
+  },
+  {
+    "path": "models/20261102/A_independent_refit.joblib",
+    "canonical_path": "models/20261102/A_final.joblib",
+    "sha256": "068e0064f9dc9b2c2d4d6e888139730aaad02c3e9e0d346ef62165778f1abd57",
+    "bytes": 163156846
+  },
+  {
+    "path": "models/20261102/B_final.joblib",
+    "canonical_path": "models/20261102/B_final.joblib",
+    "sha256": "5d9829932a3a32430b0b3f8c046c21535661531b13edb4e843db1a4f11f66a99",
+    "bytes": 194778637
+  },
+  {
+    "path": "models/20261102/B_independent_refit.joblib",
+    "canonical_path": "models/20261102/B_final.joblib",
+    "sha256": "5d9829932a3a32430b0b3f8c046c21535661531b13edb4e843db1a4f11f66a99",
+    "bytes": 194778637
+  },
+  {
+    "path": "models/20261102/C_final.joblib",
+    "canonical_path": "models/20261102/C_final.joblib",
+    "sha256": "ab8d841fc306e3de89c6e2c145505537f8105b6e36374d1d2bf49ee91f759f4d",
+    "bytes": 11036596
+  },
+  {
+    "path": "models/20261102/C_independent_refit.joblib",
+    "canonical_path": "models/20261102/C_final.joblib",
+    "sha256": "ab8d841fc306e3de89c6e2c145505537f8105b6e36374d1d2bf49ee91f759f4d",
+    "bytes": 11036596
+  },
+  {
+    "path": "models/20261103/A_final.joblib",
+    "canonical_path": "models/20261103/A_final.joblib",
+    "sha256": "4fba008e6e79fa4a5e134c5fa1d3919fc6c956b2c4a4bff74dbba6c78d60c872",
+    "bytes": 163278406
+  },
+  {
+    "path": "models/20261103/A_independent_refit.joblib",
+    "canonical_path": "models/20261103/A_final.joblib",
+    "sha256": "4fba008e6e79fa4a5e134c5fa1d3919fc6c956b2c4a4bff74dbba6c78d60c872",
+    "bytes": 163278406
+  },
+  {
+    "path": "models/20261103/B_final.joblib",
+    "canonical_path": "models/20261103/B_final.joblib",
+    "sha256": "d3ff77f3c799b115d33b7c2b5ada8a870c064ed42da60504e4da561473891806",
+    "bytes": 195987887
+  },
+  {
+    "path": "models/20261103/B_independent_refit.joblib",
+    "canonical_path": "models/20261103/B_final.joblib",
+    "sha256": "d3ff77f3c799b115d33b7c2b5ada8a870c064ed42da60504e4da561473891806",
+    "bytes": 195987887
+  },
+  {
+    "path": "models/20261103/C_final.joblib",
+    "canonical_path": "models/20261103/C_final.joblib",
+    "sha256": "39c180e6b637be11fd9043bbcd8d2d64ecb5f7c5e46d1a7fddb2e804e8a576ab",
+    "bytes": 12713916
+  },
+  {
+    "path": "models/20261103/C_independent_refit.joblib",
+    "canonical_path": "models/20261103/C_independent_refit.joblib",
+    "sha256": "8ff61e4f75db8084087546b3b2ca233a051c91171d7a2f124bfe7a0fd8915bd7",
+    "bytes": 12713952
+  },
+  {
+    "path": "models/20261104/A_final.joblib",
+    "canonical_path": "models/20261104/A_final.joblib",
+    "sha256": "798ad01f9b3be65753c061430edbad78bf5b14814780497c75326e4e7caf3d9b",
+    "bytes": 159773444
+  },
+  {
+    "path": "models/20261104/A_independent_refit.joblib",
+    "canonical_path": "models/20261104/A_final.joblib",
+    "sha256": "798ad01f9b3be65753c061430edbad78bf5b14814780497c75326e4e7caf3d9b",
+    "bytes": 159773444
+  },
+  {
+    "path": "models/20261104/B_final.joblib",
+    "canonical_path": "models/20261104/B_final.joblib",
+    "sha256": "d9f6eaf333ef25dba0a02d8eb05686397d1cafed2a39aa280689716e93c3be0d",
+    "bytes": 192056411
+  },
+  {
+    "path": "models/20261104/B_independent_refit.joblib",
+    "canonical_path": "models/20261104/B_final.joblib",
+    "sha256": "d9f6eaf333ef25dba0a02d8eb05686397d1cafed2a39aa280689716e93c3be0d",
+    "bytes": 192056411
+  },
+  {
+    "path": "models/20261104/C_final.joblib",
+    "canonical_path": "models/20261104/C_final.joblib",
+    "sha256": "d7850c91a278dee81c27f0f09cc4fa4893960854aa732bb136b511997f5a2274",
+    "bytes": 11983314
+  },
+  {
+    "path": "models/20261104/C_independent_refit.joblib",
+    "canonical_path": "models/20261104/C_independent_refit.joblib",
+    "sha256": "96ee8c1b4c47e141881e85ff0b3a3bbb9101e344d95278bfebbea1842b51897a",
+    "bytes": 11983307
+  }
+]

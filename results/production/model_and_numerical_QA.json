@@ -1,0 +1,35 @@
+[
+  {
+    "split_seed": 20261102,
+    "decision": "identity_current_C",
+    "n_train": 158,
+    "n_validation": 20,
+    "n_test": 20,
+    "independent_refit": "passed",
+    "response_poisoning": "passed",
+    "nonnegative_force": true,
+    "max_identity_abs_error": 3.637978807091713e-12
+  },
+  {
+    "split_seed": 20261103,
+    "decision": "identity_current_C",
+    "n_train": 158,
+    "n_validation": 20,
+    "n_test": 20,
+    "independent_refit": "passed",
+    "response_poisoning": "passed",
+    "nonnegative_force": true,
+    "max_identity_abs_error": 9.094947017729282e-13
+  },
+  {
+    "split_seed": 20261104,
+    "decision": "identity_current_C",
+    "n_train": 158,
+    "n_validation": 20,
+    "n_test": 20,
+    "independent_refit": "passed",
+    "response_poisoning": "passed",
+    "nonnegative_force": true,
+    "max_identity_abs_error": 1.8189894035458565e-12
+  }
+]

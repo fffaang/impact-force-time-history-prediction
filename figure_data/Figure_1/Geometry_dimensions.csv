@@ -1,0 +1,7 @@
+item,value,unit,source
+clear height H0,1500,mm,Figure 1 and Table 1
+rectangular section b,300,mm,Figure 1 and Table 1
+"section height h, S/R500 series",500,mm,Retained geometry illustration; current input b/h orientation is separately listed in Table1_specimens
+"section height h, S/R600 series",600,mm,Retained geometry illustration; current input b/h orientation is separately listed in Table1_specimens
+foundation/base width label,1000,mm,Figure 1 visual label
+foundation/base height label,400,mm,Figure 1 visual label

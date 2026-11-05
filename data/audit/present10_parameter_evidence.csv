@@ -1,0 +1,171 @@
+curve_id,field,value,evidence,status
+PRESENT_MaoYifeng_001,v,2.07,Thesis Table 3-4 and respective rigid-impact descriptions; S600 4.21 confirmed by user 2026-11-02,text_and_user_confirmed
+PRESENT_MaoYifeng_001,m,1300,"Prior rigid-versus-ship mass audit: rigid 1200 kg, ship assembly 1300 kg",inherited_mass_evidence
+PRESENT_MaoYifeng_001,b,300,Thesis Ch.3: 500 short-face impact; 600 long-face impact,original_text_read
+PRESENT_MaoYifeng_001,h,500,Thesis Ch.3: 500 short-face impact; 600 long-face impact,original_text_read
+PRESENT_MaoYifeng_001,H0,1500,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_001,d,,Separate effective depth/stirrup yield not sufficiently verified,missing_not_invented
+PRESENT_MaoYifeng_001,c,30,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_001,N,39.24,"Thesis Ch.3 axial load 4.00/4.13 tonne-force, g=9.81 m/s2",original_text_and_unit_conversion
+PRESENT_MaoYifeng_001,fc_reported,44.18,Thesis Table 3-2: cube strength 44.18 MPa; HRB335 yield 454.99 MPa,original_table_read
+PRESENT_MaoYifeng_001,fyl,454.99,Thesis Table 3-2: cube strength 44.18 MPa; HRB335 yield 454.99 MPa,original_table_read
+PRESENT_MaoYifeng_001,dl,10,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_001,Asl,785.3981633974482,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_001,fyt,,Separate effective depth/stirrup yield not sufficiently verified,missing_not_invented
+PRESENT_MaoYifeng_001,dt,6,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_001,Asv,56.54866776461628,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_001,s,100,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_001,corrosion_pct,0,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_002,v,4.21,Thesis Table 3-4 and respective rigid-impact descriptions; S600 4.21 confirmed by user 2026-11-02,text_and_user_confirmed
+PRESENT_MaoYifeng_002,m,1300,"Prior rigid-versus-ship mass audit: rigid 1200 kg, ship assembly 1300 kg",inherited_mass_evidence
+PRESENT_MaoYifeng_002,b,600,Thesis Ch.3: 500 short-face impact; 600 long-face impact,original_text_read
+PRESENT_MaoYifeng_002,h,300,Thesis Ch.3: 500 short-face impact; 600 long-face impact,original_text_read
+PRESENT_MaoYifeng_002,H0,1500,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_002,d,,Separate effective depth/stirrup yield not sufficiently verified,missing_not_invented
+PRESENT_MaoYifeng_002,c,30,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_002,N,40.5153,"Thesis Ch.3 axial load 4.00/4.13 tonne-force, g=9.81 m/s2",original_text_and_unit_conversion
+PRESENT_MaoYifeng_002,fc_reported,44.18,Thesis Table 3-2: cube strength 44.18 MPa; HRB335 yield 454.99 MPa,original_table_read
+PRESENT_MaoYifeng_002,fyl,454.99,Thesis Table 3-2: cube strength 44.18 MPa; HRB335 yield 454.99 MPa,original_table_read
+PRESENT_MaoYifeng_002,dl,10,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_002,Asl,942.4777960769379,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_002,fyt,,Separate effective depth/stirrup yield not sufficiently verified,missing_not_invented
+PRESENT_MaoYifeng_002,dt,6,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_002,Asv,56.54866776461628,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_002,s,100,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_002,corrosion_pct,0,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_003,v,0.96,Thesis Table 3-4 and respective rigid-impact descriptions; S600 4.21 confirmed by user 2026-11-02,text_and_user_confirmed
+PRESENT_MaoYifeng_003,m,1200,"Prior rigid-versus-ship mass audit: rigid 1200 kg, ship assembly 1300 kg",inherited_mass_evidence
+PRESENT_MaoYifeng_003,b,300,Thesis Ch.3: 500 short-face impact; 600 long-face impact,original_text_read
+PRESENT_MaoYifeng_003,h,500,Thesis Ch.3: 500 short-face impact; 600 long-face impact,original_text_read
+PRESENT_MaoYifeng_003,H0,1500,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_003,d,,Separate effective depth/stirrup yield not sufficiently verified,missing_not_invented
+PRESENT_MaoYifeng_003,c,30,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_003,N,39.24,"Thesis Ch.3 axial load 4.00/4.13 tonne-force, g=9.81 m/s2",original_text_and_unit_conversion
+PRESENT_MaoYifeng_003,fc_reported,44.18,Thesis Table 3-2: cube strength 44.18 MPa; HRB335 yield 454.99 MPa,original_table_read
+PRESENT_MaoYifeng_003,fyl,454.99,Thesis Table 3-2: cube strength 44.18 MPa; HRB335 yield 454.99 MPa,original_table_read
+PRESENT_MaoYifeng_003,dl,10,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_003,Asl,785.3981633974482,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_003,fyt,,Separate effective depth/stirrup yield not sufficiently verified,missing_not_invented
+PRESENT_MaoYifeng_003,dt,6,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_003,Asv,56.54866776461628,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_003,s,100,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_003,corrosion_pct,0,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_004,v,2.01,Thesis Table 3-4 and respective rigid-impact descriptions; S600 4.21 confirmed by user 2026-11-02,text_and_user_confirmed
+PRESENT_MaoYifeng_004,m,1200,"Prior rigid-versus-ship mass audit: rigid 1200 kg, ship assembly 1300 kg",inherited_mass_evidence
+PRESENT_MaoYifeng_004,b,300,Thesis Ch.3: 500 short-face impact; 600 long-face impact,original_text_read
+PRESENT_MaoYifeng_004,h,500,Thesis Ch.3: 500 short-face impact; 600 long-face impact,original_text_read
+PRESENT_MaoYifeng_004,H0,1500,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_004,d,,Separate effective depth/stirrup yield not sufficiently verified,missing_not_invented
+PRESENT_MaoYifeng_004,c,30,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_004,N,39.24,"Thesis Ch.3 axial load 4.00/4.13 tonne-force, g=9.81 m/s2",original_text_and_unit_conversion
+PRESENT_MaoYifeng_004,fc_reported,44.18,Thesis Table 3-2: cube strength 44.18 MPa; HRB335 yield 454.99 MPa,original_table_read
+PRESENT_MaoYifeng_004,fyl,454.99,Thesis Table 3-2: cube strength 44.18 MPa; HRB335 yield 454.99 MPa,original_table_read
+PRESENT_MaoYifeng_004,dl,10,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_004,Asl,785.3981633974482,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_004,fyt,,Separate effective depth/stirrup yield not sufficiently verified,missing_not_invented
+PRESENT_MaoYifeng_004,dt,6,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_004,Asv,56.54866776461628,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_004,s,100,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_004,corrosion_pct,0,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_005,v,3.12,Thesis Table 3-4 and respective rigid-impact descriptions; S600 4.21 confirmed by user 2026-11-02,text_and_user_confirmed
+PRESENT_MaoYifeng_005,m,1200,"Prior rigid-versus-ship mass audit: rigid 1200 kg, ship assembly 1300 kg",inherited_mass_evidence
+PRESENT_MaoYifeng_005,b,300,Thesis Ch.3: 500 short-face impact; 600 long-face impact,original_text_read
+PRESENT_MaoYifeng_005,h,500,Thesis Ch.3: 500 short-face impact; 600 long-face impact,original_text_read
+PRESENT_MaoYifeng_005,H0,1500,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_005,d,,Separate effective depth/stirrup yield not sufficiently verified,missing_not_invented
+PRESENT_MaoYifeng_005,c,30,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_005,N,39.24,"Thesis Ch.3 axial load 4.00/4.13 tonne-force, g=9.81 m/s2",original_text_and_unit_conversion
+PRESENT_MaoYifeng_005,fc_reported,44.18,Thesis Table 3-2: cube strength 44.18 MPa; HRB335 yield 454.99 MPa,original_table_read
+PRESENT_MaoYifeng_005,fyl,454.99,Thesis Table 3-2: cube strength 44.18 MPa; HRB335 yield 454.99 MPa,original_table_read
+PRESENT_MaoYifeng_005,dl,10,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_005,Asl,785.3981633974482,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_005,fyt,,Separate effective depth/stirrup yield not sufficiently verified,missing_not_invented
+PRESENT_MaoYifeng_005,dt,6,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_005,Asv,56.54866776461628,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_005,s,100,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_005,corrosion_pct,0,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_006,v,4.14,Thesis Table 3-4 and respective rigid-impact descriptions; S600 4.21 confirmed by user 2026-11-02,text_and_user_confirmed
+PRESENT_MaoYifeng_006,m,1200,"Prior rigid-versus-ship mass audit: rigid 1200 kg, ship assembly 1300 kg",inherited_mass_evidence
+PRESENT_MaoYifeng_006,b,300,Thesis Ch.3: 500 short-face impact; 600 long-face impact,original_text_read
+PRESENT_MaoYifeng_006,h,500,Thesis Ch.3: 500 short-face impact; 600 long-face impact,original_text_read
+PRESENT_MaoYifeng_006,H0,1500,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_006,d,,Separate effective depth/stirrup yield not sufficiently verified,missing_not_invented
+PRESENT_MaoYifeng_006,c,30,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_006,N,39.24,"Thesis Ch.3 axial load 4.00/4.13 tonne-force, g=9.81 m/s2",original_text_and_unit_conversion
+PRESENT_MaoYifeng_006,fc_reported,44.18,Thesis Table 3-2: cube strength 44.18 MPa; HRB335 yield 454.99 MPa,original_table_read
+PRESENT_MaoYifeng_006,fyl,454.99,Thesis Table 3-2: cube strength 44.18 MPa; HRB335 yield 454.99 MPa,original_table_read
+PRESENT_MaoYifeng_006,dl,10,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_006,Asl,785.3981633974482,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_006,fyt,,Separate effective depth/stirrup yield not sufficiently verified,missing_not_invented
+PRESENT_MaoYifeng_006,dt,6,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_006,Asv,56.54866776461628,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_006,s,100,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_006,corrosion_pct,0,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_007,v,1.33,Thesis Table 3-4 and respective rigid-impact descriptions; S600 4.21 confirmed by user 2026-11-02,text_and_user_confirmed
+PRESENT_MaoYifeng_007,m,1200,"Prior rigid-versus-ship mass audit: rigid 1200 kg, ship assembly 1300 kg",inherited_mass_evidence
+PRESENT_MaoYifeng_007,b,600,Thesis Ch.3: 500 short-face impact; 600 long-face impact,original_text_read
+PRESENT_MaoYifeng_007,h,300,Thesis Ch.3: 500 short-face impact; 600 long-face impact,original_text_read
+PRESENT_MaoYifeng_007,H0,1500,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_007,d,,Separate effective depth/stirrup yield not sufficiently verified,missing_not_invented
+PRESENT_MaoYifeng_007,c,30,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_007,N,40.5153,"Thesis Ch.3 axial load 4.00/4.13 tonne-force, g=9.81 m/s2",original_text_and_unit_conversion
+PRESENT_MaoYifeng_007,fc_reported,44.18,Thesis Table 3-2: cube strength 44.18 MPa; HRB335 yield 454.99 MPa,original_table_read
+PRESENT_MaoYifeng_007,fyl,454.99,Thesis Table 3-2: cube strength 44.18 MPa; HRB335 yield 454.99 MPa,original_table_read
+PRESENT_MaoYifeng_007,dl,10,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_007,Asl,942.4777960769379,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_007,fyt,,Separate effective depth/stirrup yield not sufficiently verified,missing_not_invented
+PRESENT_MaoYifeng_007,dt,6,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_007,Asv,56.54866776461628,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_007,s,100,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_007,corrosion_pct,0,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_008,v,2.29,Thesis Table 3-4 and respective rigid-impact descriptions; S600 4.21 confirmed by user 2026-11-02,text_and_user_confirmed
+PRESENT_MaoYifeng_008,m,1200,"Prior rigid-versus-ship mass audit: rigid 1200 kg, ship assembly 1300 kg",inherited_mass_evidence
+PRESENT_MaoYifeng_008,b,600,Thesis Ch.3: 500 short-face impact; 600 long-face impact,original_text_read
+PRESENT_MaoYifeng_008,h,300,Thesis Ch.3: 500 short-face impact; 600 long-face impact,original_text_read
+PRESENT_MaoYifeng_008,H0,1500,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_008,d,,Separate effective depth/stirrup yield not sufficiently verified,missing_not_invented
+PRESENT_MaoYifeng_008,c,30,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_008,N,40.5153,"Thesis Ch.3 axial load 4.00/4.13 tonne-force, g=9.81 m/s2",original_text_and_unit_conversion
+PRESENT_MaoYifeng_008,fc_reported,44.18,Thesis Table 3-2: cube strength 44.18 MPa; HRB335 yield 454.99 MPa,original_table_read
+PRESENT_MaoYifeng_008,fyl,454.99,Thesis Table 3-2: cube strength 44.18 MPa; HRB335 yield 454.99 MPa,original_table_read
+PRESENT_MaoYifeng_008,dl,10,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_008,Asl,942.4777960769379,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_008,fyt,,Separate effective depth/stirrup yield not sufficiently verified,missing_not_invented
+PRESENT_MaoYifeng_008,dt,6,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_008,Asv,56.54866776461628,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_008,s,100,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_008,corrosion_pct,0,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_009,v,3.03,Thesis Table 3-4 and respective rigid-impact descriptions; S600 4.21 confirmed by user 2026-11-02,text_and_user_confirmed
+PRESENT_MaoYifeng_009,m,1200,"Prior rigid-versus-ship mass audit: rigid 1200 kg, ship assembly 1300 kg",inherited_mass_evidence
+PRESENT_MaoYifeng_009,b,600,Thesis Ch.3: 500 short-face impact; 600 long-face impact,original_text_read
+PRESENT_MaoYifeng_009,h,300,Thesis Ch.3: 500 short-face impact; 600 long-face impact,original_text_read
+PRESENT_MaoYifeng_009,H0,1500,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_009,d,,Separate effective depth/stirrup yield not sufficiently verified,missing_not_invented
+PRESENT_MaoYifeng_009,c,30,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_009,N,40.5153,"Thesis Ch.3 axial load 4.00/4.13 tonne-force, g=9.81 m/s2",original_text_and_unit_conversion
+PRESENT_MaoYifeng_009,fc_reported,44.18,Thesis Table 3-2: cube strength 44.18 MPa; HRB335 yield 454.99 MPa,original_table_read
+PRESENT_MaoYifeng_009,fyl,454.99,Thesis Table 3-2: cube strength 44.18 MPa; HRB335 yield 454.99 MPa,original_table_read
+PRESENT_MaoYifeng_009,dl,10,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_009,Asl,942.4777960769379,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_009,fyt,,Separate effective depth/stirrup yield not sufficiently verified,missing_not_invented
+PRESENT_MaoYifeng_009,dt,6,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_009,Asv,56.54866776461628,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_009,s,100,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_009,corrosion_pct,0,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_010,v,4.19,Thesis Table 3-4 and respective rigid-impact descriptions; S600 4.21 confirmed by user 2026-11-02,text_and_user_confirmed
+PRESENT_MaoYifeng_010,m,1200,"Prior rigid-versus-ship mass audit: rigid 1200 kg, ship assembly 1300 kg",inherited_mass_evidence
+PRESENT_MaoYifeng_010,b,600,Thesis Ch.3: 500 short-face impact; 600 long-face impact,original_text_read
+PRESENT_MaoYifeng_010,h,300,Thesis Ch.3: 500 short-face impact; 600 long-face impact,original_text_read
+PRESENT_MaoYifeng_010,H0,1500,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_010,d,,Separate effective depth/stirrup yield not sufficiently verified,missing_not_invented
+PRESENT_MaoYifeng_010,c,30,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_010,N,40.5153,"Thesis Ch.3 axial load 4.00/4.13 tonne-force, g=9.81 m/s2",original_text_and_unit_conversion
+PRESENT_MaoYifeng_010,fc_reported,44.18,Thesis Table 3-2: cube strength 44.18 MPa; HRB335 yield 454.99 MPa,original_table_read
+PRESENT_MaoYifeng_010,fyl,454.99,Thesis Table 3-2: cube strength 44.18 MPa; HRB335 yield 454.99 MPa,original_table_read
+PRESENT_MaoYifeng_010,dl,10,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_010,Asl,942.4777960769379,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_010,fyt,,Separate effective depth/stirrup yield not sufficiently verified,missing_not_invented
+PRESENT_MaoYifeng_010,dt,6,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_010,Asv,56.54866776461628,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_010,s,100,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement
+PRESENT_MaoYifeng_010,corrosion_pct,0,Thesis Ch.3 Figs.3-2/3-6 and inherited record-level engineering audit,inherited_drawing_evidence_not_new_pointwise_remeasurement

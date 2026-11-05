@@ -1,0 +1,9 @@
+--extra-index-url https://download.pytorch.org/whl/cu128
+-r requirements-inference.txt
+xgboost==2.1.4
+catboost==1.2.8
+lightgbm==4.6.0
+openpyxl==3.1.5
+psutil==7.0.0
+torch==2.7.1+cu128
+PyYAML==6.0.2

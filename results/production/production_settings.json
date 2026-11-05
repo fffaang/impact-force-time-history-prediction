@@ -1,0 +1,506 @@
+{
+  "anchors": [
+    {
+      "target": "Fmax",
+      "family": "GradientBoosting",
+      "weight": 1.0,
+      "spec": {
+        "family": "GradientBoosting",
+        "features": "physics",
+        "transform": "direct",
+        "level": 1
+      },
+      "parameters": {
+        "alpha": 0.9,
+        "ccp_alpha": 0.0,
+        "criterion": "friedman_mse",
+        "init": null,
+        "learning_rate": 0.04,
+        "loss": "squared_error",
+        "max_depth": 3,
+        "max_features": null,
+        "max_leaf_nodes": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 3,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "n_estimators": 160,
+        "n_iter_no_change": null,
+        "random_state": 20260519,
+        "subsample": 1.0,
+        "tol": 0.0001,
+        "validation_fraction": 0.1,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "model_seeds": [
+        20260519,
+        20260520,
+        20260521
+      ],
+      "production": true,
+      "role": "production anchor"
+    },
+    {
+      "target": "Td",
+      "family": "HistGradientBoosting",
+      "weight": 0.6893322005669545,
+      "spec": {
+        "family": "HistGradientBoosting",
+        "features": "raw",
+        "transform": "direct",
+        "level": 1
+      },
+      "parameters": {
+        "categorical_features": "warn",
+        "early_stopping": false,
+        "interaction_cst": null,
+        "l2_regularization": 10.0,
+        "learning_rate": 0.1,
+        "loss": "squared_error",
+        "max_bins": 255,
+        "max_depth": null,
+        "max_features": 1.0,
+        "max_iter": 160,
+        "max_leaf_nodes": 15,
+        "min_samples_leaf": 6,
+        "monotonic_cst": null,
+        "n_iter_no_change": 10,
+        "quantile": null,
+        "random_state": 20260519,
+        "scoring": "loss",
+        "tol": 1e-07,
+        "validation_fraction": 0.1,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "model_seeds": [
+        20260519,
+        20260520,
+        20260521
+      ],
+      "production": true,
+      "role": "production anchor"
+    },
+    {
+      "target": "Td",
+      "family": "GradientBoosting",
+      "weight": 0.3106677994330455,
+      "spec": {
+        "family": "GradientBoosting",
+        "features": "raw",
+        "transform": "log",
+        "level": 1
+      },
+      "parameters": {
+        "alpha": 0.9,
+        "ccp_alpha": 0.0,
+        "criterion": "friedman_mse",
+        "init": null,
+        "learning_rate": 0.04,
+        "loss": "squared_error",
+        "max_depth": 3,
+        "max_features": null,
+        "max_leaf_nodes": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 3,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "n_estimators": 160,
+        "n_iter_no_change": null,
+        "random_state": 20260519,
+        "subsample": 1.0,
+        "tol": 0.0001,
+        "validation_fraction": 0.1,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "model_seeds": [
+        20260519,
+        20260520,
+        20260521
+      ],
+      "production": true,
+      "role": "production anchor"
+    },
+    {
+      "target": "I",
+      "family": "ExtraTrees",
+      "weight": 0.5003338322471095,
+      "spec": {
+        "family": "ExtraTrees",
+        "features": "raw",
+        "transform": "momentum_residual",
+        "level": 0
+      },
+      "parameters": {
+        "bootstrap": false,
+        "ccp_alpha": 0.0,
+        "criterion": "squared_error",
+        "max_depth": null,
+        "max_features": 1.0,
+        "max_leaf_nodes": null,
+        "max_samples": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 1,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "monotonic_cst": null,
+        "n_estimators": 160,
+        "n_jobs": 1,
+        "oob_score": false,
+        "random_state": 20260519,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "model_seeds": [
+        20260519,
+        20260520,
+        20260521
+      ],
+      "production": true,
+      "role": "production anchor"
+    },
+    {
+      "target": "I",
+      "family": "GradientBoosting",
+      "weight": 0.4996661677528906,
+      "spec": {
+        "family": "GradientBoosting",
+        "features": "raw",
+        "transform": "momentum_residual",
+        "level": 1
+      },
+      "parameters": {
+        "alpha": 0.9,
+        "ccp_alpha": 0.0,
+        "criterion": "friedman_mse",
+        "init": null,
+        "learning_rate": 0.04,
+        "loss": "squared_error",
+        "max_depth": 3,
+        "max_features": null,
+        "max_leaf_nodes": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 3,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "n_estimators": 160,
+        "n_iter_no_change": null,
+        "random_state": 20260519,
+        "subsample": 1.0,
+        "tol": 0.0001,
+        "validation_fraction": 0.1,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "model_seeds": [
+        20260519,
+        20260520,
+        20260521
+      ],
+      "production": true,
+      "role": "production anchor"
+    },
+    {
+      "target": "Astar",
+      "family": "GradientBoosting",
+      "weight": 0.3958324503619874,
+      "spec": {
+        "family": "GradientBoosting",
+        "features": "raw",
+        "transform": "logit",
+        "level": 1
+      },
+      "parameters": {
+        "alpha": 0.9,
+        "ccp_alpha": 0.0,
+        "criterion": "friedman_mse",
+        "init": null,
+        "learning_rate": 0.04,
+        "loss": "squared_error",
+        "max_depth": 3,
+        "max_features": null,
+        "max_leaf_nodes": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 3,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "n_estimators": 160,
+        "n_iter_no_change": null,
+        "random_state": 20260519,
+        "subsample": 1.0,
+        "tol": 0.0001,
+        "validation_fraction": 0.1,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "model_seeds": [
+        20260519,
+        20260520,
+        20260521
+      ],
+      "production": false,
+      "role": "independent benchmark only"
+    },
+    {
+      "target": "Astar",
+      "family": "RandomForest",
+      "weight": 0.19682703581183242,
+      "spec": {
+        "family": "RandomForest",
+        "features": "physics",
+        "transform": "logit",
+        "level": 1
+      },
+      "parameters": {
+        "bootstrap": true,
+        "ccp_alpha": 0.0,
+        "criterion": "squared_error",
+        "max_depth": null,
+        "max_features": 0.7,
+        "max_leaf_nodes": null,
+        "max_samples": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 3,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "monotonic_cst": null,
+        "n_estimators": 160,
+        "n_jobs": 1,
+        "oob_score": false,
+        "random_state": 20260519,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "model_seeds": [
+        20260519,
+        20260520,
+        20260521
+      ],
+      "production": false,
+      "role": "independent benchmark only"
+    },
+    {
+      "target": "Astar",
+      "family": "SVR",
+      "weight": 0.4073405138261802,
+      "spec": {
+        "family": "SVR",
+        "features": "raw",
+        "transform": "direct",
+        "level": 0
+      },
+      "parameters": {
+        "C": 3.0,
+        "cache_size": 200,
+        "coef0": 0.0,
+        "degree": 3,
+        "epsilon": 0.05,
+        "gamma": "scale",
+        "kernel": "rbf",
+        "max_iter": -1,
+        "shrinking": true,
+        "tol": 0.001,
+        "verbose": false
+      },
+      "model_seeds": [
+        20260519,
+        20260520,
+        20260521
+      ],
+      "production": false,
+      "role": "independent benchmark only"
+    },
+    {
+      "target": "tp_ratio",
+      "family": "ExtraTrees",
+      "weight": 0.5782205601391593,
+      "spec": {
+        "family": "ExtraTrees",
+        "features": "physics",
+        "transform": "logit",
+        "level": 0
+      },
+      "parameters": {
+        "bootstrap": false,
+        "ccp_alpha": 0.0,
+        "criterion": "squared_error",
+        "max_depth": null,
+        "max_features": 1.0,
+        "max_leaf_nodes": null,
+        "max_samples": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 1,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "monotonic_cst": null,
+        "n_estimators": 160,
+        "n_jobs": 1,
+        "oob_score": false,
+        "random_state": 20260519,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "model_seeds": [
+        20260519,
+        20260520,
+        20260521
+      ],
+      "production": true,
+      "role": "production anchor"
+    },
+    {
+      "target": "tp_ratio",
+      "family": "HistGradientBoosting",
+      "weight": 0.1690091059394912,
+      "spec": {
+        "family": "HistGradientBoosting",
+        "features": "physics",
+        "transform": "direct",
+        "level": 0
+      },
+      "parameters": {
+        "categorical_features": "warn",
+        "early_stopping": false,
+        "interaction_cst": null,
+        "l2_regularization": 1.0,
+        "learning_rate": 0.1,
+        "loss": "squared_error",
+        "max_bins": 255,
+        "max_depth": null,
+        "max_features": 1.0,
+        "max_iter": 160,
+        "max_leaf_nodes": 7,
+        "min_samples_leaf": 6,
+        "monotonic_cst": null,
+        "n_iter_no_change": 10,
+        "quantile": null,
+        "random_state": 20260519,
+        "scoring": "loss",
+        "tol": 1e-07,
+        "validation_fraction": 0.1,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "model_seeds": [
+        20260519,
+        20260520,
+        20260521
+      ],
+      "production": true,
+      "role": "production anchor"
+    },
+    {
+      "target": "tp_ratio",
+      "family": "SVR",
+      "weight": 0.25277033392134945,
+      "spec": {
+        "family": "SVR",
+        "features": "physics",
+        "transform": "direct",
+        "level": 0
+      },
+      "parameters": {
+        "C": 3.0,
+        "cache_size": 200,
+        "coef0": 0.0,
+        "degree": 3,
+        "epsilon": 0.05,
+        "gamma": "scale",
+        "kernel": "rbf",
+        "max_iter": -1,
+        "shrinking": true,
+        "tol": 0.001,
+        "verbose": false
+      },
+      "model_seeds": [
+        20260519,
+        20260520,
+        20260521
+      ],
+      "production": true,
+      "role": "production anchor"
+    }
+  ],
+  "shape_spec": {
+    "structure": "impulse",
+    "features": "physics",
+    "kind": "PCA",
+    "reg": "ExtraTrees",
+    "k": 8
+  },
+  "shape_models": [
+    {
+      "bootstrap": false,
+      "ccp_alpha": 0.0,
+      "criterion": "squared_error",
+      "max_depth": null,
+      "max_features": 1.0,
+      "max_leaf_nodes": null,
+      "max_samples": null,
+      "min_impurity_decrease": 0.0,
+      "min_samples_leaf": 2,
+      "min_samples_split": 2,
+      "min_weight_fraction_leaf": 0.0,
+      "monotonic_cst": null,
+      "n_estimators": 160,
+      "n_jobs": 1,
+      "oob_score": false,
+      "random_state": 20260519,
+      "verbose": 0,
+      "warm_start": false
+    },
+    {
+      "bootstrap": false,
+      "ccp_alpha": 0.0,
+      "criterion": "squared_error",
+      "max_depth": null,
+      "max_features": 1.0,
+      "max_leaf_nodes": null,
+      "max_samples": null,
+      "min_impurity_decrease": 0.0,
+      "min_samples_leaf": 2,
+      "min_samples_split": 2,
+      "min_weight_fraction_leaf": 0.0,
+      "monotonic_cst": null,
+      "n_estimators": 160,
+      "n_jobs": 1,
+      "oob_score": false,
+      "random_state": 20260520,
+      "verbose": 0,
+      "warm_start": false
+    },
+    {
+      "bootstrap": false,
+      "ccp_alpha": 0.0,
+      "criterion": "squared_error",
+      "max_depth": null,
+      "max_features": 1.0,
+      "max_leaf_nodes": null,
+      "max_samples": null,
+      "min_impurity_decrease": 0.0,
+      "min_samples_leaf": 2,
+      "min_samples_split": 2,
+      "min_weight_fraction_leaf": 0.0,
+      "monotonic_cst": null,
+      "n_estimators": 160,
+      "n_jobs": 1,
+      "oob_score": false,
+      "random_state": 20260521,
+      "verbose": 0,
+      "warm_start": false
+    }
+  ],
+  "pca_explained_variance_ratio": [
+    0.6808057918255517,
+    0.12872007890910264,
+    0.044591944210183004,
+    0.03438235127802678,
+    0.025524561226655532,
+    0.015321316218031572,
+    0.012219300186859367,
+    0.010984506757516912
+  ],
+  "selection": "identity_current_C"
+}

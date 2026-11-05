@@ -1,0 +1,4 @@
+Path,Purpose
+curve_metrics_all_populations.csv,Sealed A/B/C metrics
+paired_source_bootstrap.csv,Paired B-A and C-B bootstrap
+main_predictions.csv,Primary actual-output predictions

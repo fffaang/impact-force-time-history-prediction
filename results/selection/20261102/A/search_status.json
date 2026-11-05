@@ -1,0 +1,24 @@
+{
+  "complete": true,
+  "arm": "A",
+  "n_train": 131,
+  "weights_origin": "training-only OOF; no archived weights",
+  "names": [
+    "LocalAnalog_K1_T0p55",
+    "LocalAnalog_K1_T0p85",
+    "LocalAnalog_K3_T0p55",
+    "LocalAnalog_K8_T0p55",
+    "PeakWarpAnalog_K8_T0p85",
+    "PeakWarpDCT12_ET",
+    "PeakShift_PCA16_ET"
+  ],
+  "weights": [
+    0.2032863939078452,
+    0.20328636621095755,
+    2.194629725553499e-18,
+    3.1543367597347165e-18,
+    0.13464259601366388,
+    0.42335698726777377,
+    0.0354276565997595
+  ]
+}

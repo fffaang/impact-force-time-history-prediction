@@ -1,0 +1,17 @@
+{
+  "dataset": true,
+  "original_models_unchanged": true,
+  "partition_replays": 3,
+  "record_predictions_checked": 594,
+  "heldout_histories_checked": 120,
+  "scientific_unit_tests_passed": 22,
+  "prediction_interface_tests_passed": 5,
+  "training_only_CPU_smoke": true,
+  "full_search_repeated_for_release": false,
+  "shap_values_reproduced": true,
+  "figure_numeric_cells_preserved": true,
+  "independent_refit_evidence": "Original completed experiment; not refitted for release",
+  "literature_pointwise_verification_complete": false,
+  "figure_numeric_cells_checked": 73776,
+  "public_text_and_archive_review_passed": true
+}

@@ -1,0 +1,254 @@
+[
+  {
+    "split_seed": 20261102,
+    "bin_absolute_deviation": 4.698224852071004,
+    "seed": 20261102,
+    "groups": 186,
+    "nested": {
+      "bin_absolute_deviation": 0.5333333333333323,
+      "seed": 20262102,
+      "groups": 146
+    },
+    "present_assignments": [
+      {
+        "curve_id": "PRESENT_MaoYifeng_001",
+        "specimen_group": "PRESENT_section500_association",
+        "role": "primary",
+        "split": "train",
+        "nested_A": true
+      },
+      {
+        "curve_id": "PRESENT_MaoYifeng_002",
+        "specimen_group": "PRESENT_section600_association",
+        "role": "primary",
+        "split": "train",
+        "nested_A": true
+      },
+      {
+        "curve_id": "PRESENT_MaoYifeng_003",
+        "specimen_group": "PRESENT_section500_association",
+        "role": "primary",
+        "split": "train",
+        "nested_A": true
+      },
+      {
+        "curve_id": "PRESENT_MaoYifeng_004",
+        "specimen_group": "PRESENT_section500_association",
+        "role": "primary",
+        "split": "train",
+        "nested_A": true
+      },
+      {
+        "curve_id": "PRESENT_MaoYifeng_005",
+        "specimen_group": "PRESENT_section500_association",
+        "role": "primary",
+        "split": "train",
+        "nested_A": true
+      },
+      {
+        "curve_id": "PRESENT_MaoYifeng_006",
+        "specimen_group": "PRESENT_section500_association",
+        "role": "primary",
+        "split": "train",
+        "nested_A": true
+      },
+      {
+        "curve_id": "PRESENT_MaoYifeng_007",
+        "specimen_group": "PRESENT_section600_association",
+        "role": "primary",
+        "split": "train",
+        "nested_A": true
+      },
+      {
+        "curve_id": "PRESENT_MaoYifeng_008",
+        "specimen_group": "PRESENT_section600_association",
+        "role": "primary",
+        "split": "train",
+        "nested_A": true
+      },
+      {
+        "curve_id": "PRESENT_MaoYifeng_009",
+        "specimen_group": "PRESENT_section600_association",
+        "role": "primary",
+        "split": "train",
+        "nested_A": true
+      },
+      {
+        "curve_id": "PRESENT_MaoYifeng_010",
+        "specimen_group": "PRESENT_section600_association",
+        "role": "primary",
+        "split": "train",
+        "nested_A": true
+      }
+    ],
+    "split_hash": "bf15cb51e4e2031c9a1bcfbe2615e1e66ad8f923de8e53c61ef70b979ec6b8b3"
+  },
+  {
+    "split_seed": 20261103,
+    "bin_absolute_deviation": 4.698224852071004,
+    "seed": 20261103,
+    "groups": 186,
+    "nested": {
+      "bin_absolute_deviation": 0.5333333333333323,
+      "seed": 20262103,
+      "groups": 146
+    },
+    "present_assignments": [
+      {
+        "curve_id": "PRESENT_MaoYifeng_001",
+        "specimen_group": "PRESENT_section500_association",
+        "role": "primary",
+        "split": "train",
+        "nested_A": true
+      },
+      {
+        "curve_id": "PRESENT_MaoYifeng_002",
+        "specimen_group": "PRESENT_section600_association",
+        "role": "primary",
+        "split": "train",
+        "nested_A": true
+      },
+      {
+        "curve_id": "PRESENT_MaoYifeng_003",
+        "specimen_group": "PRESENT_section500_association",
+        "role": "primary",
+        "split": "train",
+        "nested_A": true
+      },
+      {
+        "curve_id": "PRESENT_MaoYifeng_004",
+        "specimen_group": "PRESENT_section500_association",
+        "role": "primary",
+        "split": "train",
+        "nested_A": true
+      },
+      {
+        "curve_id": "PRESENT_MaoYifeng_005",
+        "specimen_group": "PRESENT_section500_association",
+        "role": "primary",
+        "split": "train",
+        "nested_A": true
+      },
+      {
+        "curve_id": "PRESENT_MaoYifeng_006",
+        "specimen_group": "PRESENT_section500_association",
+        "role": "primary",
+        "split": "train",
+        "nested_A": true
+      },
+      {
+        "curve_id": "PRESENT_MaoYifeng_007",
+        "specimen_group": "PRESENT_section600_association",
+        "role": "primary",
+        "split": "train",
+        "nested_A": true
+      },
+      {
+        "curve_id": "PRESENT_MaoYifeng_008",
+        "specimen_group": "PRESENT_section600_association",
+        "role": "primary",
+        "split": "train",
+        "nested_A": true
+      },
+      {
+        "curve_id": "PRESENT_MaoYifeng_009",
+        "specimen_group": "PRESENT_section600_association",
+        "role": "primary",
+        "split": "train",
+        "nested_A": true
+      },
+      {
+        "curve_id": "PRESENT_MaoYifeng_010",
+        "specimen_group": "PRESENT_section600_association",
+        "role": "primary",
+        "split": "train",
+        "nested_A": true
+      }
+    ],
+    "split_hash": "94bf90c98568651973501416431449c768647f1027cd62993768d245968fd24b"
+  },
+  {
+    "split_seed": 20261104,
+    "bin_absolute_deviation": 4.698224852071004,
+    "seed": 20261104,
+    "groups": 186,
+    "nested": {
+      "bin_absolute_deviation": 0.5333333333333323,
+      "seed": 20262104,
+      "groups": 146
+    },
+    "present_assignments": [
+      {
+        "curve_id": "PRESENT_MaoYifeng_001",
+        "specimen_group": "PRESENT_section500_association",
+        "role": "primary",
+        "split": "train",
+        "nested_A": true
+      },
+      {
+        "curve_id": "PRESENT_MaoYifeng_002",
+        "specimen_group": "PRESENT_section600_association",
+        "role": "primary",
+        "split": "train",
+        "nested_A": true
+      },
+      {
+        "curve_id": "PRESENT_MaoYifeng_003",
+        "specimen_group": "PRESENT_section500_association",
+        "role": "primary",
+        "split": "train",
+        "nested_A": true
+      },
+      {
+        "curve_id": "PRESENT_MaoYifeng_004",
+        "specimen_group": "PRESENT_section500_association",
+        "role": "primary",
+        "split": "train",
+        "nested_A": true
+      },
+      {
+        "curve_id": "PRESENT_MaoYifeng_005",
+        "specimen_group": "PRESENT_section500_association",
+        "role": "primary",
+        "split": "train",
+        "nested_A": true
+      },
+      {
+        "curve_id": "PRESENT_MaoYifeng_006",
+        "specimen_group": "PRESENT_section500_association",
+        "role": "primary",
+        "split": "train",
+        "nested_A": true
+      },
+      {
+        "curve_id": "PRESENT_MaoYifeng_007",
+        "specimen_group": "PRESENT_section600_association",
+        "role": "primary",
+        "split": "train",
+        "nested_A": true
+      },
+      {
+        "curve_id": "PRESENT_MaoYifeng_008",
+        "specimen_group": "PRESENT_section600_association",
+        "role": "primary",
+        "split": "train",
+        "nested_A": true
+      },
+      {
+        "curve_id": "PRESENT_MaoYifeng_009",
+        "specimen_group": "PRESENT_section600_association",
+        "role": "primary",
+        "split": "train",
+        "nested_A": true
+      },
+      {
+        "curve_id": "PRESENT_MaoYifeng_010",
+        "specimen_group": "PRESENT_section600_association",
+        "role": "primary",
+        "split": "train",
+        "nested_A": true
+      }
+    ],
+    "split_hash": "0faf2ac8efd8969841931ab5f60eed7311ca3c3ffd2189d5a5fc3a53a6cc9276"
+  }
+]

@@ -1,0 +1,5 @@
+Item,Definition
+Signed contribution,r = 0.68 + 0.26 * SHAP / panel_max_abs_SHAP
+Swarm displacement,Only angle is displaced; signed SHAP and radius are unchanged
+Central bars,Bar radius is proportional to mean absolute SHAP within each output
+Sample,20 primary test records per feature; no repeated or synthetic points

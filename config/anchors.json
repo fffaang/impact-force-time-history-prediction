@@ -1,0 +1,18 @@
+{
+  "version": "split811-anchors-20261102-v1",
+  "seeds": [20260519, 20260520, 20260521],
+  "inner_folds": 3,
+  "cpu_threads": 2,
+  "cpu_workers": 8,
+  "worker_threads": 2,
+  "targets": ["Fmax", "Td", "I", "Astar", "tp_ratio"],
+  "target_r2": 0.8,
+  "maximum_negative_curves": 0,
+  "raw_features": ["v", "m", "b", "h", "H0", "d", "c", "N", "fc_reported", "fyl", "dl", "Asl", "fyt", "dt", "Asv", "s", "corrosion_pct"],
+  "feature_sets": ["raw", "physics"],
+  "families": ["Ridge", "Huber", "SVR", "KernelRidge", "ExtraTrees", "RandomForest", "GradientBoosting", "HistGradientBoosting", "XGBoost", "CatBoost"],
+  "max_configs_per_family_target": 16,
+  "selection_metric": "original_scale_training_internal_grouped_R2",
+  "evaluation_policy": "frozen_model_once_then_reproduction_only",
+  "source_group_validation": false
+}

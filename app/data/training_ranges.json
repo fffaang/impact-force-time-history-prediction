@@ -1,0 +1,87 @@
+{
+  "v": {
+    "min": 0.592,
+    "max": 14.01,
+    "missing": 0
+  },
+  "m": {
+    "min": 84.0,
+    "max": 4200.0,
+    "missing": 0
+  },
+  "b": {
+    "min": 100.0,
+    "max": 600.0,
+    "missing": 0
+  },
+  "h": {
+    "min": 100.0,
+    "max": 680.0,
+    "missing": 0
+  },
+  "H0": {
+    "min": 1000.0,
+    "max": 6000.0,
+    "missing": 1
+  },
+  "d": {
+    "min": 75.0,
+    "max": 590.0,
+    "missing": 52
+  },
+  "c": {
+    "min": 10.0,
+    "max": 50.0,
+    "missing": 16
+  },
+  "N": {
+    "min": 0.0,
+    "max": 597.0,
+    "missing": 0
+  },
+  "fc_reported": {
+    "min": 21.0,
+    "max": 60.39,
+    "missing": 0
+  },
+  "fyl": {
+    "min": 345.0,
+    "max": 495.5,
+    "missing": 22
+  },
+  "dl": {
+    "min": 8.0,
+    "max": 25.0,
+    "missing": 22
+  },
+  "Asl": {
+    "min": 201.06192982975,
+    "max": 4908.7385212341,
+    "missing": 22
+  },
+  "fyt": {
+    "min": 0.0,
+    "max": 650.0,
+    "missing": 10
+  },
+  "dt": {
+    "min": 0.0,
+    "max": 10.0,
+    "missing": 0
+  },
+  "Asv": {
+    "min": 0.0,
+    "max": 157.079633,
+    "missing": 2
+  },
+  "s": {
+    "min": 50.0,
+    "max": 400.0,
+    "missing": 9
+  },
+  "corrosion_pct": {
+    "min": 0.0,
+    "max": 15.0,
+    "missing": 0
+  }
+}

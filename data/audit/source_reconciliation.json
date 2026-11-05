@@ -1,0 +1,10 @@
+{
+  "archive_199_sha256": "e42ced43efec5d327e8b71be471ea497e93a3bbb4062227a2c547f230109ec77",
+  "origin_project_sha256": "3802064265319ad80a88487d8f9d232df5c42a35d6cb6833cfe7ba4cde1dc178",
+  "original_source": "FIG3.opju",
+  "duplicate_external_inclusion": false,
+  "unknown_damage_not_new_predictor": true,
+  "observed_sampling_note": "500 plotted values per curve; not an acquisition-rate claim",
+  "strength_note": "fc_reported retains documented cube/cylinder distinctions; no unsupported conversion",
+  "interval_note": "Original 189 grid curves and ten native PWL curves retain their respective stored resolutions"
+}

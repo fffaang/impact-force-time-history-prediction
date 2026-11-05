@@ -1,0 +1,11 @@
+id,vertices
+archive_split,"[[24, 81.0], [24, 77.5]]"
+split_training,"[[24, 68.5], [24, 64.5]]"
+input_anchors,"[[75, 80.0], [75, 77.0]]"
+anchors_identity,"[[75, 61.0], [75, 58.0]]"
+identity_shape,"[[75, 48.0], [75, 44.5]]"
+shape_project,"[[75, 31.5], [75, 28.0]]"
+evaluate_limits,"[[24, 22.0], [24, 18.5]]"
+training_prediction,"[[46.5, 58], [49.7, 58], [49.7, 69], [52.5, 69]]"
+prediction_evaluation,"[[52.5, 21], [49.7, 21], [49.7, 29], [46.5, 29]]"
+heldout_evaluation,"[[1, 73], [0, 73], [0, 29], [1.5, 29]]"

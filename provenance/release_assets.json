@@ -1,0 +1,32 @@
+[
+  {
+    "name": "impact_force_time_history_dataset_v1.0.0.zip",
+    "bytes": 2421004,
+    "sha256": "1cca34420d54c6f8303e7cb452d6d6fcfe0aa8fd90ce63e5e3b30598604087ba",
+    "url": "https://github.com/fffaang/impact-force-time-history-prediction/releases/download/v1.0.0/impact_force_time_history_dataset_v1.0.0.zip"
+  },
+  {
+    "name": "impact_models_controls_20261102_v1.0.0.zip",
+    "bytes": 356824973,
+    "sha256": "6fd21a8464f7eb3f3b38a8abbff3fcc074ec4bc55f0d1edd3f923316a0a63863",
+    "url": "https://github.com/fffaang/impact-force-time-history-prediction/releases/download/v1.0.0/impact_models_controls_20261102_v1.0.0.zip"
+  },
+  {
+    "name": "impact_models_controls_20261103_v1.0.0.zip",
+    "bytes": 370704575,
+    "sha256": "e4fd0cbd01c5614afa4f44b19aafcc2b33968515e20496e8c64a1ff3f63f0853",
+    "url": "https://github.com/fffaang/impact-force-time-history-prediction/releases/download/v1.0.0/impact_models_controls_20261103_v1.0.0.zip"
+  },
+  {
+    "name": "impact_models_controls_20261104_v1.0.0.zip",
+    "bytes": 362574443,
+    "sha256": "3de8f877925847013968cd8275c74ae72cba5e3b3a1e20196a32d962e19c68a6",
+    "url": "https://github.com/fffaang/impact-force-time-history-prediction/releases/download/v1.0.0/impact_models_controls_20261104_v1.0.0.zip"
+  },
+  {
+    "name": "ImpactCurve_Predictor_Windows_x64_v1.0.0.zip",
+    "bytes": 99218629,
+    "sha256": "50a7dc364c873515d36f53b743f5fac3b3018ed30562d0b315fcb33a94fd7bd8",
+    "url": "https://github.com/fffaang/impact-force-time-history-prediction/releases/download/v1.0.0/ImpactCurve_Predictor_Windows_x64_v1.0.0.zip"
+  }
+]

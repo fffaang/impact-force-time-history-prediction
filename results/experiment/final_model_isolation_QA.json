@@ -1,0 +1,126 @@
+{
+  "status": "PASS",
+  "models": [
+    {
+      "split_seed": 20261102,
+      "arm": "A",
+      "n_train": 131,
+      "n_holdout": 40,
+      "response_poison_unchanged": true,
+      "known_specimen_and_holdout_records_isolated": true,
+      "member_train_ids_verified": true,
+      "model_seeds_verified": true,
+      "refit_max_force_difference": 0.0
+    },
+    {
+      "split_seed": 20261102,
+      "arm": "B",
+      "n_train": 158,
+      "n_holdout": 40,
+      "response_poison_unchanged": true,
+      "known_specimen_and_holdout_records_isolated": true,
+      "member_train_ids_verified": true,
+      "model_seeds_verified": true,
+      "refit_max_force_difference": 0.0
+    },
+    {
+      "split_seed": 20261102,
+      "arm": "C",
+      "n_train": 158,
+      "n_holdout": 40,
+      "response_poison_unchanged": true,
+      "known_specimen_and_holdout_records_isolated": true,
+      "member_train_ids_verified": true,
+      "model_seeds_verified": true,
+      "refit_max_force_difference": 0.0
+    },
+    {
+      "split_seed": 20261103,
+      "arm": "A",
+      "n_train": 131,
+      "n_holdout": 40,
+      "response_poison_unchanged": true,
+      "known_specimen_and_holdout_records_isolated": true,
+      "member_train_ids_verified": true,
+      "model_seeds_verified": true,
+      "refit_max_force_difference": 0.0
+    },
+    {
+      "split_seed": 20261103,
+      "arm": "B",
+      "n_train": 158,
+      "n_holdout": 40,
+      "response_poison_unchanged": true,
+      "known_specimen_and_holdout_records_isolated": true,
+      "member_train_ids_verified": true,
+      "model_seeds_verified": true,
+      "refit_max_force_difference": 0.0
+    },
+    {
+      "split_seed": 20261103,
+      "arm": "C",
+      "n_train": 158,
+      "n_holdout": 40,
+      "response_poison_unchanged": true,
+      "known_specimen_and_holdout_records_isolated": true,
+      "member_train_ids_verified": true,
+      "model_seeds_verified": true,
+      "refit_max_force_difference": 0.0
+    },
+    {
+      "split_seed": 20261104,
+      "arm": "A",
+      "n_train": 131,
+      "n_holdout": 40,
+      "response_poison_unchanged": true,
+      "known_specimen_and_holdout_records_isolated": true,
+      "member_train_ids_verified": true,
+      "model_seeds_verified": true,
+      "refit_max_force_difference": 0.0
+    },
+    {
+      "split_seed": 20261104,
+      "arm": "B",
+      "n_train": 158,
+      "n_holdout": 40,
+      "response_poison_unchanged": true,
+      "known_specimen_and_holdout_records_isolated": true,
+      "member_train_ids_verified": true,
+      "model_seeds_verified": true,
+      "refit_max_force_difference": 0.0
+    },
+    {
+      "split_seed": 20261104,
+      "arm": "C",
+      "n_train": 158,
+      "n_holdout": 40,
+      "response_poison_unchanged": true,
+      "known_specimen_and_holdout_records_isolated": true,
+      "member_train_ids_verified": true,
+      "model_seeds_verified": true,
+      "refit_max_force_difference": 0.0
+    }
+  ],
+  "context_folds_checked": 27,
+  "raw_inputs": [
+    "v",
+    "m",
+    "b",
+    "h",
+    "H0",
+    "d",
+    "c",
+    "N",
+    "fc_reported",
+    "fyl",
+    "dl",
+    "Asl",
+    "fyt",
+    "dt",
+    "Asv",
+    "s",
+    "corrosion_pct"
+  ],
+  "original_frozen_files_unchanged": true,
+  "limitation": "Isolation means known linked specimens and train/holdout records, not unseen publication sources."
+}

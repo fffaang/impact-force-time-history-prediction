@@ -1,0 +1,11 @@
+Item,Details
+Figure,8
+Title,Training-internal comparison and selection of anchor regressors
+Panel,All four independent production anchors
+Primary split,20261102
+Scoring,158 training records; specimen-group-disjoint three-fold OOF; predictions averaged across three model seeds
+Candidate scores,"Best frozen configuration of each of 10 algorithm families, ranked by original-scale R2; MdRE breaks ties"
+Selected predictor,Replay of stored component weights on the same OOF predictions; before final curve feasibility reconciliation
+Interpretation,"Development/selection evidence, not independent validation/test precision or unseen-source generalization"
+Derived fifth quantity,"Astar is derived from reconciled Fmax, Td and I in production. Independent Astar regressors are benchmark only."
+No retraining,All calculations replay frozen cached predictions; models and weights are unchanged

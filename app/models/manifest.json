@@ -1,0 +1,47 @@
+{
+  "version": "ImpactCurve-1.1.0",
+  "model": "Frozen model C",
+  "primary_partition": 20261102,
+  "training_records": 158,
+  "validation_records": 20,
+  "test_records": 20,
+  "seeds": [
+    20260519,
+    20260520,
+    20260521
+  ],
+  "source_model_sha256": "ab8d841fc306e3de89c6e2c145505537f8105b6e36374d1d2bf49ee91f759f4d",
+  "files": [
+    {
+      "path": "runtime/common.py",
+      "sha256": "3542c6de324978508702598f44321a7d5ffcf24e344c899c4c673d17960bde2d"
+    },
+    {
+      "path": "runtime/features.py",
+      "sha256": "1562adf298bd1a51c011047b51014c9b213666c402d2b7cf2cce6ad43b7df9d7"
+    },
+    {
+      "path": "runtime/anchors.py",
+      "sha256": "03972c8d7541906f40439dd65168f572184698279a6d8554e743a6857715a67e"
+    },
+    {
+      "path": "runtime/shapes.py",
+      "sha256": "cd360437d36a3c5bbc2799fff498362cd0bd465c3dfdb8a748b0002f28bd18db"
+    },
+    {
+      "path": "../models/20261102/C_final.joblib",
+      "sha256": "ab8d841fc306e3de89c6e2c145505537f8105b6e36374d1d2bf49ee91f759f4d"
+    },
+    {
+      "path": "runtime/classical.py",
+      "sha256": "5cc6011628401a36960b803221d777cc34ff4845d6747bf67e02d26f8f91feb2"
+    }
+  ],
+  "sklearn_version": "1.5.2",
+  "numpy_version": "2.1.3",
+  "scipy_version": "1.14.1",
+  "pandas_version": "2.2.3",
+  "joblib_version": "1.4.2",
+  "runtime": "Original stored estimators; NumPy float64 forward reconstruction; no training",
+  "model_path": "../models/20261102/C_final.joblib"
+}

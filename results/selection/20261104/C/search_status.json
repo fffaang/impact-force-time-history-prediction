@@ -1,0 +1,62 @@
+{
+  "complete": true,
+  "planned": 152,
+  "completed": 152,
+  "selected": {
+    "number": 60,
+    "kind": "joint",
+    "spec": {
+      "structure": "impulse",
+      "features": "raw",
+      "template": "mean",
+      "k": 8,
+      "width": 32,
+      "calibration": "fixed",
+      "anchor_weight": 10.0
+    },
+    "median_R2": 0.13518348941406694,
+    "negative_count": 70,
+    "NRMSE_p90": 0.2953693863009637,
+    "complexity": 256,
+    "anchor_protection": true,
+    "anchor_metrics": {
+      "Fmax": {
+        "R2": 0.7987447692500592,
+        "MAE": 145.63360349843467,
+        "RMSE": 268.0809403592013,
+        "MdRE": 17.0002646310604,
+        "phase_absolute_percentage_points": null
+      },
+      "Td": {
+        "R2": 0.6438184210774713,
+        "MAE": 13.398713958194394,
+        "RMSE": 30.142690647361384,
+        "MdRE": 17.05217158409878,
+        "phase_absolute_percentage_points": null
+      },
+      "I": {
+        "R2": 0.840891794557928,
+        "MAE": 862.6347841788172,
+        "RMSE": 1689.0155195136895,
+        "MdRE": 17.56075246370562,
+        "phase_absolute_percentage_points": null
+      },
+      "Astar": {
+        "R2": -0.7321760213805772,
+        "MAE": 0.08119159566552353,
+        "RMSE": 0.13068736275614876,
+        "MdRE": 26.89495766678629,
+        "phase_absolute_percentage_points": null
+      },
+      "tp_ratio": {
+        "R2": 0.47926633341691693,
+        "MAE": 0.05469165553659819,
+        "RMSE": 0.0877465936995622,
+        "MdRE": 31.812914332504505,
+        "phase_absolute_percentage_points": 5.469165553659819
+      }
+    }
+  },
+  "selection_population": "training-only grouped OOF",
+  "no_eligible_completed_candidate": false
+}

@@ -1,0 +1,8 @@
+Item,Details
+Figure,3
+Title,Ten present-study force histories
+Model,"Primary split 20261102, frozen C; rejected recalibration not deployed"
+Scope,Plotting values are archived observations or sealed predictions; no new selection
+Units,Force kN; time ms except native Fig.3 source time_s
+Missing values,"Blank means unavailable, not zero"
+Origin,Native plots reference workbook columns; PDF is publication layout master

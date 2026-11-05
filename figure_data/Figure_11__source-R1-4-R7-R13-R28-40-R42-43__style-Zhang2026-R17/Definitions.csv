@@ -1,0 +1,5 @@
+model,definition,anchors matched
+Equivalent rectangle,"I_pred/Td_pred on [0,Td_pred]","I, Td"
+Triangular,Linear 0 -> Fmax_pred at p_pred*Td_pred -> 0,"Fmax, Td, p"
+Half-sine,Fmax_pred sin(pi*t/Td_pred); 201 PWL points,"Fmax, Td"
+Unit rectangle,"Fmax_pred on [0,Td_pred]","Fmax, Td"

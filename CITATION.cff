@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Please cite this dataset and acknowledge the original sources of reused records."
+type: dataset
+title: "Impact force–time history dataset for reinforced concrete members"
+authors:
+  - name: "fffaang"
+    website: "https://github.com/fffaang"
+version: "1.0.0"
+date-released: "2026-11-05"
+url: "https://github.com/fffaang/impact-force-time-history-prediction"
+repository-code: "https://github.com/fffaang/impact-force-time-history-prediction"
+abstract: "199 archived transverse impact force histories for reinforced-concrete members, including 198 modeling-eligible records, numerical curve ordinates, engineering metadata, fixed splits, trained models, and local prediction software."
+keywords:
+  - reinforced concrete
+  - impact force
+  - force-time history
+  - structural dynamics
+  - dataset
+license: CC-BY-4.0

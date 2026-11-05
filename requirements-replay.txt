@@ -1,0 +1,5 @@
+-r requirements-inference.txt
+--extra-index-url https://download.pytorch.org/whl/cpu
+catboost==1.2.8
+xgboost==2.1.4
+torch==2.7.1+cpu

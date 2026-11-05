@@ -1,0 +1,133 @@
+panel,series_index,series,kind,point,x,y,color,marker,linestyle
+1,1,_stem_GradientBoosting,line,0,0,10,#327FA9,o,-
+1,1,_stem_GradientBoosting,line,1,0.8589951401142308,10,#327FA9,o,-
+1,2,_stem_RandomForest,line,0,0,9,#A9A9AF,o,-
+1,2,_stem_RandomForest,line,1,0.8406976182564154,9,#A9A9AF,o,-
+1,3,_stem_XGBoost,line,0,0,8,#A9A9AF,o,-
+1,3,_stem_XGBoost,line,1,0.8367530905237415,8,#A9A9AF,o,-
+1,4,_stem_CatBoost,line,0,0,7,#A9A9AF,o,-
+1,4,_stem_CatBoost,line,1,0.8321794260701998,7,#A9A9AF,o,-
+1,5,_stem_HistGradientBoosting,line,0,0,6,#A9A9AF,o,-
+1,5,_stem_HistGradientBoosting,line,1,0.8313077337754471,6,#A9A9AF,o,-
+1,6,_stem_Huber,line,0,0,5,#A9A9AF,o,-
+1,6,_stem_Huber,line,1,0.8260524787646205,5,#A9A9AF,o,-
+1,7,_stem_ExtraTrees,line,0,0,4,#A9A9AF,o,-
+1,7,_stem_ExtraTrees,line,1,0.8132840700131129,4,#A9A9AF,o,-
+1,8,_stem_Ridge,line,0,0,3,#A9A9AF,o,-
+1,8,_stem_Ridge,line,1,0.7885125664258252,3,#A9A9AF,o,-
+1,9,_stem_KernelRidge,line,0,0,2,#A9A9AF,o,-
+1,9,_stem_KernelRidge,line,1,0.7396705897247267,2,#A9A9AF,o,-
+1,10,_stem_SVR,line,0,0,1,#A9A9AF,o,-
+1,10,_stem_SVR,line,1,0.6684852266591811,1,#A9A9AF,o,-
+1,11,Other candidate,scatter,0,0.8406976182564154,9,#A9A9AF,o,-
+1,11,Other candidate,scatter,1,0.8367530905237415,8,#A9A9AF,o,-
+1,11,Other candidate,scatter,2,0.8321794260701998,7,#A9A9AF,o,-
+1,11,Other candidate,scatter,3,0.8313077337754471,6,#A9A9AF,o,-
+1,11,Other candidate,scatter,4,0.8260524787646205,5,#A9A9AF,o,-
+1,11,Other candidate,scatter,5,0.8132840700131129,4,#A9A9AF,o,-
+1,11,Other candidate,scatter,6,0.7885125664258252,3,#A9A9AF,o,-
+1,11,Other candidate,scatter,7,0.7396705897247267,2,#A9A9AF,o,-
+1,11,Other candidate,scatter,8,0.6684852266591811,1,#A9A9AF,o,-
+1,12,Selected component,scatter,0,0.8589951401142308,10,#327FA9,o,-
+1,13,_predictor_stem,line,0,0,-0.15,#C94C6B,o,-
+1,13,_predictor_stem,line,1,0.8589951401142308,-0.15,#C94C6B,o,-
+1,14,Selected predictor,scatter,0,0.8589951401142308,-0.15,#C94C6B,D,-
+2,1,_stem_HistGradientBoosting,line,0,0,10,#327FA9,o,-
+2,1,_stem_HistGradientBoosting,line,1,0.7592211119489563,10,#327FA9,o,-
+2,2,_stem_GradientBoosting,line,0,0,9,#327FA9,o,-
+2,2,_stem_GradientBoosting,line,1,0.7307359162035041,9,#327FA9,o,-
+2,3,_stem_RandomForest,line,0,0,8,#A9A9AF,o,-
+2,3,_stem_RandomForest,line,1,0.6956055818029001,8,#A9A9AF,o,-
+2,4,_stem_XGBoost,line,0,0,7,#A9A9AF,o,-
+2,4,_stem_XGBoost,line,1,0.6926698025127807,7,#A9A9AF,o,-
+2,5,_stem_ExtraTrees,line,0,0,6,#A9A9AF,o,-
+2,5,_stem_ExtraTrees,line,1,0.6734362595220783,6,#A9A9AF,o,-
+2,6,_stem_CatBoost,line,0,0,5,#A9A9AF,o,-
+2,6,_stem_CatBoost,line,1,0.6326101534853027,5,#A9A9AF,o,-
+2,7,_stem_SVR,line,0,0,4,#A9A9AF,o,-
+2,7,_stem_SVR,line,1,0.5863132772784808,4,#A9A9AF,o,-
+2,8,_stem_KernelRidge,line,0,0,3,#A9A9AF,o,-
+2,8,_stem_KernelRidge,line,1,0.5539465449867437,3,#A9A9AF,o,-
+2,9,_stem_Ridge,line,0,0,2,#A9A9AF,o,-
+2,9,_stem_Ridge,line,1,0.4892222475860977,2,#A9A9AF,o,-
+2,10,_stem_Huber,line,0,0,1,#A9A9AF,o,-
+2,10,_stem_Huber,line,1,0.2500010426075754,1,#A9A9AF,o,-
+2,11,Other candidate,scatter,0,0.6956055818029001,8,#A9A9AF,o,-
+2,11,Other candidate,scatter,1,0.6926698025127807,7,#A9A9AF,o,-
+2,11,Other candidate,scatter,2,0.6734362595220783,6,#A9A9AF,o,-
+2,11,Other candidate,scatter,3,0.6326101534853027,5,#A9A9AF,o,-
+2,11,Other candidate,scatter,4,0.5863132772784808,4,#A9A9AF,o,-
+2,11,Other candidate,scatter,5,0.5539465449867437,3,#A9A9AF,o,-
+2,11,Other candidate,scatter,6,0.4892222475860977,2,#A9A9AF,o,-
+2,11,Other candidate,scatter,7,0.2500010426075754,1,#A9A9AF,o,-
+2,12,Selected component,scatter,0,0.7592211119489563,10,#327FA9,o,-
+2,12,Selected component,scatter,1,0.7307359162035041,9,#327FA9,o,-
+2,13,_predictor_stem,line,0,0,-0.15,#C94C6B,o,-
+2,13,_predictor_stem,line,1,0.7664814566854032,-0.15,#C94C6B,o,-
+2,14,Selected predictor,scatter,0,0.7664814566854032,-0.15,#C94C6B,D,-
+3,1,_stem_ExtraTrees,line,0,0,10,#327FA9,o,-
+3,1,_stem_ExtraTrees,line,1,0.8917048090575312,10,#327FA9,o,-
+3,2,_stem_GradientBoosting,line,0,0,9,#327FA9,o,-
+3,2,_stem_GradientBoosting,line,1,0.8916562061701515,9,#327FA9,o,-
+3,3,_stem_CatBoost,line,0,0,8,#A9A9AF,o,-
+3,3,_stem_CatBoost,line,1,0.8772517538363307,8,#A9A9AF,o,-
+3,4,_stem_XGBoost,line,0,0,7,#A9A9AF,o,-
+3,4,_stem_XGBoost,line,1,0.8762311046679392,7,#A9A9AF,o,-
+3,5,_stem_RandomForest,line,0,0,6,#A9A9AF,o,-
+3,5,_stem_RandomForest,line,1,0.872787945713296,6,#A9A9AF,o,-
+3,6,_stem_HistGradientBoosting,line,0,0,5,#A9A9AF,o,-
+3,6,_stem_HistGradientBoosting,line,1,0.8703265674885843,5,#A9A9AF,o,-
+3,7,_stem_KernelRidge,line,0,0,4,#A9A9AF,o,-
+3,7,_stem_KernelRidge,line,1,0.8377649012609207,4,#A9A9AF,o,-
+3,8,_stem_SVR,line,0,0,3,#A9A9AF,o,-
+3,8,_stem_SVR,line,1,0.8258011976516085,3,#A9A9AF,o,-
+3,9,_stem_Ridge,line,0,0,2,#A9A9AF,o,-
+3,9,_stem_Ridge,line,1,0.8052827450719775,2,#A9A9AF,o,-
+3,10,_stem_Huber,line,0,0,1,#A9A9AF,o,-
+3,10,_stem_Huber,line,1,0.7947425080413417,1,#A9A9AF,o,-
+3,11,Other candidate,scatter,0,0.8772517538363307,8,#A9A9AF,o,-
+3,11,Other candidate,scatter,1,0.8762311046679392,7,#A9A9AF,o,-
+3,11,Other candidate,scatter,2,0.872787945713296,6,#A9A9AF,o,-
+3,11,Other candidate,scatter,3,0.8703265674885843,5,#A9A9AF,o,-
+3,11,Other candidate,scatter,4,0.8377649012609207,4,#A9A9AF,o,-
+3,11,Other candidate,scatter,5,0.8258011976516085,3,#A9A9AF,o,-
+3,11,Other candidate,scatter,6,0.8052827450719775,2,#A9A9AF,o,-
+3,11,Other candidate,scatter,7,0.7947425080413417,1,#A9A9AF,o,-
+3,12,Selected component,scatter,0,0.8917048090575312,10,#327FA9,o,-
+3,12,Selected component,scatter,1,0.8916562061701515,9,#327FA9,o,-
+3,13,_predictor_stem,line,0,0,-0.15,#C94C6B,o,-
+3,13,_predictor_stem,line,1,0.9098786621150161,-0.15,#C94C6B,o,-
+3,14,Selected predictor,scatter,0,0.9098786621150161,-0.15,#C94C6B,D,-
+4,1,_stem_ExtraTrees,line,0,0,10,#327FA9,o,-
+4,1,_stem_ExtraTrees,line,1,0.7042267404527733,10,#327FA9,o,-
+4,2,_stem_HistGradientBoosting,line,0,0,9,#327FA9,o,-
+4,2,_stem_HistGradientBoosting,line,1,0.6676160663958013,9,#327FA9,o,-
+4,3,_stem_SVR,line,0,0,8,#327FA9,o,-
+4,3,_stem_SVR,line,1,0.6556283544158695,8,#327FA9,o,-
+4,4,_stem_RandomForest,line,0,0,7,#A9A9AF,o,-
+4,4,_stem_RandomForest,line,1,0.6552399111247411,7,#A9A9AF,o,-
+4,5,_stem_XGBoost,line,0,0,6,#A9A9AF,o,-
+4,5,_stem_XGBoost,line,1,0.6399373246777902,6,#A9A9AF,o,-
+4,6,_stem_GradientBoosting,line,0,0,5,#A9A9AF,o,-
+4,6,_stem_GradientBoosting,line,1,0.6325027601309043,5,#A9A9AF,o,-
+4,7,_stem_KernelRidge,line,0,0,4,#A9A9AF,o,-
+4,7,_stem_KernelRidge,line,1,0.5929714627653968,4,#A9A9AF,o,-
+4,8,_stem_CatBoost,line,0,0,3,#A9A9AF,o,-
+4,8,_stem_CatBoost,line,1,0.5916788721832474,3,#A9A9AF,o,-
+4,9,_stem_Ridge,line,0,0,2,#A9A9AF,o,-
+4,9,_stem_Ridge,line,1,0.2512582341388357,2,#A9A9AF,o,-
+4,10,_stem_Huber,line,0,0,1,#A9A9AF,o,-
+4,10,_stem_Huber,line,1,0.2203685439968881,1,#A9A9AF,o,-
+4,11,Other candidate,scatter,0,0.6552399111247411,7,#A9A9AF,o,-
+4,11,Other candidate,scatter,1,0.6399373246777902,6,#A9A9AF,o,-
+4,11,Other candidate,scatter,2,0.6325027601309043,5,#A9A9AF,o,-
+4,11,Other candidate,scatter,3,0.5929714627653968,4,#A9A9AF,o,-
+4,11,Other candidate,scatter,4,0.5916788721832474,3,#A9A9AF,o,-
+4,11,Other candidate,scatter,5,0.2512582341388357,2,#A9A9AF,o,-
+4,11,Other candidate,scatter,6,0.2203685439968881,1,#A9A9AF,o,-
+4,12,Selected component,scatter,0,0.7042267404527733,10,#327FA9,o,-
+4,12,Selected component,scatter,1,0.6676160663958013,9,#327FA9,o,-
+4,12,Selected component,scatter,2,0.6556283544158695,8,#327FA9,o,-
+4,13,_predictor_stem,line,0,0,-0.15,#C94C6B,o,-
+4,13,_predictor_stem,line,1,0.7185996449145866,-0.15,#C94C6B,o,-
+4,14,Selected predictor,scatter,0,0.7185996449145866,-0.15,#C94C6B,D,-

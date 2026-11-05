@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "archive_records": 199,
+  "eligible_records": 198,
+  "model_ready_points": 38403,
+  "origin_plotting_points": 5000,
+  "origin_histories": 10,
+  "partitions": {
+    "20261102": {
+      "train": 158,
+      "test": 20,
+      "val": 20
+    },
+    "20261103": {
+      "train": 158,
+      "val": 20,
+      "test": 20
+    },
+    "20261104": {
+      "train": 158,
+      "test": 20,
+      "val": 20
+    }
+  },
+  "csv_npz_exact": true,
+  "literature_pointwise_reverification": false
+}

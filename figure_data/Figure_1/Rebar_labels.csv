@@ -1,0 +1,6 @@
+label_id,display_label,raw_figure_label,role
+1,1: phi10 longitudinal bar,1 phi10,longitudinal reinforcement
+2,2: phi6@100 stirrup,2 phi6@100,transverse reinforcement
+zone_left,8x5,8x5,figure zoning label
+zone_mid,7x10,7x10,figure zoning label
+zone_right,8x5,8x5,figure zoning label

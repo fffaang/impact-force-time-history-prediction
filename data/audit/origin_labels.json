@@ -1,0 +1,36 @@
+[
+  [
+    "G600",
+    [
+      [
+        "xb",
+        "\\b(Time (s))"
+      ],
+      [
+        "yl",
+        "\\b(Impact force (kN))"
+      ],
+      [
+        "legend",
+        "\\l(1) \\f:Times New Roman(S600-4.02)\r\n\\l(2) \\f:Times New Roman(R600-1.33)\r\n\\l(3) \\f:Times New Roman(R600-2.29)\r\n\\l(4) \\f:Times New Roman(R600-3.03)\r\n\\l(5) \\f:Times New Roman(R600-4.19)"
+      ]
+    ]
+  ],
+  [
+    "G500",
+    [
+      [
+        "xb",
+        "\\b(Time (s))"
+      ],
+      [
+        "yl",
+        "\\b(Impact force (kN))"
+      ],
+      [
+        "legend",
+        "\\l(1) \\f:Times New Roman(S500-2.07)\r\n\\l(2) \\f:Times New Roman(R500-0.96)\r\n\\l(3) \\f:Times New Roman(R500-2.01)\r\n\\l(4) \\f:Times New Roman(R500-3.12)\r\n\\l(5) \\f:Times New Roman(R500-4.14)"
+      ]
+    ]
+  ]
+]

@@ -1,0 +1,18 @@
+﻿feature,unit,definition,missing_count_199,deployment_allowed,missing_policy
+v,m/s,Impact velocity,0,True,Fit median imputation on training subset only
+m,kg,Impactor assembly mass,0,True,Fit median imputation on training subset only
+b,mm,Section width,0,True,Fit median imputation on training subset only
+h,mm,Section depth in impact direction,0,True,Fit median imputation on training subset only
+H0,mm,Member span/height as reported,2,True,Fit median imputation on training subset only
+d,mm,"Effective depth, distinct from H0",65,True,Fit median imputation on training subset only
+c,mm,Concrete cover,21,True,Fit median imputation on training subset only
+N,kN,Axial force,0,True,Fit median imputation on training subset only
+fc_reported,MPa,Reported concrete strength; cube/cylinder definitions retained,0,True,Fit median imputation on training subset only
+fyl,MPa,Longitudinal reinforcement yield strength,25,True,Fit median imputation on training subset only
+dl,mm,Longitudinal bar diameter,25,True,Fit median imputation on training subset only
+Asl,mm^2,Total longitudinal reinforcement area,25,True,Fit median imputation on training subset only
+fyt,MPa,Transverse reinforcement yield strength,10,True,Fit median imputation on training subset only
+dt,mm,Stirrup diameter,0,True,Fit median imputation on training subset only
+Asv,mm^2,Effective transverse reinforcement area,4,True,Fit median imputation on training subset only
+s,mm,Stirrup spacing,11,True,Fit median imputation on training subset only
+corrosion_pct,percent,Reported corrosion percentage,0,True,Fit median imputation on training subset only

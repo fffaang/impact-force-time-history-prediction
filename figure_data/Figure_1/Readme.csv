@@ -1,0 +1,6 @@
+Item,Details
+Figure,1
+Type,Retained geometry illustration
+Conditions,"Table1_specimens / Impact_test_metadata uses current frozen record orientation and input values, not old legacy metadata"
+Source boundary,The graphic background is retained. This is not a wholly native vector or a new experiment.
+Unit caveat,"Fig.1 zoning labels 8x5 / 7x10 have no unambiguous source unit and are preserved as labels, not converted to mm."

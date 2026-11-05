@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "FROZEN.json",
+      "verified_files": 63,
+      "status": "PASS"
+    },
+    {
+      "check": "MODEL_SELECTION_FROZEN.json",
+      "verified_files": 18,
+      "status": "PASS"
+    },
+    {
+      "check": "packaged inference",
+      "seed": 20261102,
+      "n": 40,
+      "status": "PASS",
+      "max_abs_difference": 5.4569682106375694e-12,
+      "max_identity_error": 9.094947017729282e-13,
+      "validation_median_R2": 0.420560902822018,
+      "test_median_R2": 0.5155442636461856
+    },
+    {
+      "check": "packaged inference",
+      "seed": 20261103,
+      "n": 40,
+      "status": "PASS",
+      "max_abs_difference": 3.637978807091713e-12,
+      "max_identity_error": 2.2737367544323206e-13,
+      "validation_median_R2": 0.4169886689964056,
+      "test_median_R2": 0.47215613761754294
+    },
+    {
+      "check": "packaged inference",
+      "seed": 20261104,
+      "n": 40,
+      "status": "PASS",
+      "max_abs_difference": 5.4569682106375694e-12,
+      "max_identity_error": 1.8189894035458565e-12,
+      "validation_median_R2": 0.25189833528003475,
+      "test_median_R2": 0.26977276112621934
+    }
+  ],
+  "no_fit_or_search": true,
+  "tolerances": {
+    "rtol": 1e-09,
+    "atol": 1e-08
+  },
+  "python": "3.12.3 (main, Jan 22 2026, 20:57:42) [GCC 13.3.0]",
+  "platform": "linux",
+  "base_project": "ijie_curve_split811_20261102",
+  "base_model_manifest_sha256": "319cb9981f2e3a7fa2f1753504fa28167baf613dc03a8ae50e90d27f69e38f29"
+}

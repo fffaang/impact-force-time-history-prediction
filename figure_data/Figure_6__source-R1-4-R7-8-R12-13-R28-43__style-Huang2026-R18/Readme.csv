@@ -1,0 +1,23 @@
+Item,Details
+Figure,6
+Title,Distributions of all 199 archived records
+Population,199 archived records: 198 modeling-eligible plus one archive-only record
+Modeling partition,"158 training, 20 validation, 20 test; unchanged"
+Archive-only,B3-7-P remains quarantined and excluded from fitting/evaluation; reported values shown separately
+Binning,Explicit integer boundaries; left-closed/right-open; last upper endpoint included
+Counts,Recomputed for all 199 archive records; primary model split and observed values unchanged
+Missing values,Excluded only from their variable histogram; not replaced with zero
+Concrete strength,"Displayed as f'_c; stored fc_reported observations are unchanged, without strength conversion"
+Style reference,"Huang et al., Engineering Failure Analysis 183 (2026) 110281, Fig.3, p.5; style only"
+Origin,Editable native graphs; PDF/SVG are the publication appearance masters
+Units,v m/s; m kg; lengths mm; stresses MPa; N/Fmax kN; Asl mm^2; Td ms
+"Missing H0, train",1
+"Missing H0, val",1
+"Missing Asl, train",22
+"Missing Asl, val",2
+"Missing Asl, test",1
+"Missing fyl, train",22
+"Missing fyl, val",2
+"Missing fyl, test",1
+"Missing s, train",9
+"Missing s, val",2

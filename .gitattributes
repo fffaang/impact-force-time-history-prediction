@@ -1,0 +1,7 @@
+* -text
+*.npz binary
+*.joblib binary
+*.opju binary
+*.xlsx binary
+*.png binary
+*.csv -text

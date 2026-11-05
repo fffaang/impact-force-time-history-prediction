@@ -1,0 +1,25 @@
+{
+  "archive": 199,
+  "eligible": 198,
+  "roles": {
+    "primary": 169,
+    "numerical_aux": 18,
+    "shape_aux": 11,
+    "quarantine": 1
+  },
+  "former_external_curves_now_included": true,
+  "original_189_ordinates_unchanged": true,
+  "source_sha256": "3802064265319ad80a88487d8f9d232df5c42a35d6cb6833cfe7ba4cde1dc178",
+  "alias_correction": {
+    "stored": "S600-4.02",
+    "canonical": "S600-4.21",
+    "user_confirmed": true
+  },
+  "limitations": [
+    "Native Origin plotting data, not certified acquisition signals.",
+    "No new pointwise verification of the 189 literature curves.",
+    "Separate stirrup yield and effective depth absent for present histories; training-only imputation.",
+    "Repeated damage and impactor identity are metadata, not additional model inputs.",
+    "5%-threshold endpoints remain nonzero; exact one-sided PWL integration avoids artificial extension ramps."
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "archive_count": 189,
+  "split_counts": {
+    "train": 132,
+    "test": 38,
+    "val": 19
+  },
+  "fitted_training_count": 131,
+  "quarantined_training_ids": [
+    "LEG_Paper12_Zhong2023_011"
+  ],
+  "role_counts": {
+    "primary": 159,
+    "numerical_aux": 18,
+    "shape_aux": 11,
+    "quarantine": 1
+  },
+  "correction_count": 455,
+  "formal_acceptance_blocked": false,
+  "source_pdf_hashes_pass": true,
+  "strength_definitions": {
+    "cube": 99,
+    "reported_unspecified": 33,
+    "axial_prism_derived": 21,
+    "cylinder": 18,
+    "unknown": 18
+  },
+  "limitations": [
+    "Existing digitization not independently recreated point by point.",
+    "Source strength types remain mixed reported quantities, not silently converted.",
+    "Unresolved predictors become missing; the training-only imputer does not establish their truth.",
+    "Target recomputation is reported separately and does not count as algorithmic improvement.",
+    "No support/contact/damage/source identifiers enter prediction."
+  ]
+}

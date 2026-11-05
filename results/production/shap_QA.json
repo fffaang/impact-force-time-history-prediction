@@ -1,0 +1,100 @@
+{
+  "method": "background-averaged random-order Shapley estimator with antithetic reverse orders",
+  "seed": 20261103,
+  "background_ids": [
+    "LEG_Cai2018_013",
+    "LEG_Paper10_Sun2024_002",
+    "LEG_Yun2025_002",
+    "LEG_Yun2025_007",
+    "LEG_Wei2021_002",
+    "LEG_Zhang2026_004",
+    "LEG_XuBin2014_002",
+    "LEG_XuBin2014_005",
+    "LEG_EmpiricalFormulas2012_025",
+    "LEG_HuangXin2023_002",
+    "LEG_HuangXin2023_014",
+    "LEG_HuangXin2023_017",
+    "LEG_HuangXin2023_020",
+    "LEG_Zhao2017_006",
+    "LEG_Paper13_Yilmaz2019_005",
+    "LEG_Sun2022_001",
+    "LEG_Chen2025_OceanEng_002",
+    "LEG_Chen2025_OceanEng_005",
+    "LEG_Kishi2002_008",
+    "LEG_Paper12_Zhong2023_006",
+    "LEG_Paper12_Zhong2023_008",
+    "LEG_Paper12_Zhong2023_009",
+    "LEG_Song2023_002",
+    "PRESENT_MaoYifeng_009"
+  ],
+  "test_ids": [
+    "LEG_Chun2024_006",
+    "LEG_Cai2018_002",
+    "LEG_Cai2018_012",
+    "LEG_Cai2018_015",
+    "LEG_Yun2025_003",
+    "LEG_NUM_Zhao2019_001",
+    "LEG_XuBin2014_006",
+    "LEG_HuangXin2023_010",
+    "LEG_Fujikake2009_008",
+    "LEG_Fujikake2009_009",
+    "LEG_Zhao2017_002",
+    "LEG_Zhao2017_009",
+    "LEG_Paper13_Yilmaz2019_013",
+    "LEG_Paper11_Li2020_006",
+    "LEG_Wu2024_001",
+    "LEG_Chen2025_OceanEng_003",
+    "LEG_Paper12_Zhong2023_010",
+    "LEG_Paper12_Zhong2023_019",
+    "LEG_Song2023_001",
+    "LEG_Song2023_003"
+  ],
+  "permutations": 64,
+  "features": [
+    "v",
+    "m",
+    "b",
+    "h",
+    "H0",
+    "d",
+    "c",
+    "N",
+    "fc_reported",
+    "fyl",
+    "dl",
+    "Asl",
+    "fyt",
+    "dt",
+    "Asv",
+    "s",
+    "corrosion_pct"
+  ],
+  "derived_features_recomputed": true,
+  "explained_function": "actual reconciled five outputs; no shape surrogate",
+  "maximum_additivity_error": 5.329070518200751e-15,
+  "within_run_stability": [
+    {
+      "target": "Astar",
+      "half_sample_importance_rank_spearman": 0.9950980392156863
+    },
+    {
+      "target": "Fmax",
+      "half_sample_importance_rank_spearman": 0.9877450980392157
+    },
+    {
+      "target": "I",
+      "half_sample_importance_rank_spearman": 0.9926470588235295
+    },
+    {
+      "target": "Td",
+      "half_sample_importance_rank_spearman": 0.9754901960784315
+    },
+    {
+      "target": "tp_ratio",
+      "half_sample_importance_rank_spearman": 0.9730392156862747
+    }
+  ],
+  "model_sha256": "ab8d841fc306e3de89c6e2c145505537f8105b6e36374d1d2bf49ee91f759f4d",
+  "elapsed_seconds": 144.1581723690033,
+  "limitations": "Marginal coalitions may combine correlated engineering inputs off manifold; not causal."
+}

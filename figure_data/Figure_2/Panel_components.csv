@@ -1,0 +1,13 @@
+panel,component,role
+a,trolley,impact carriage
+a,measuring point of force,force measurement location
+a,rigid head,impact head option
+a,ship bow,impact head option
+a,guide rail,trolley guidance
+a,wire rope,pulling system
+a,specimen,RC member under impact
+a,jack,axial load application
+a,reaction wall,support/loading reaction
+a,drop hammer,trolley driving energy
+a,pulley,rope redirection
+b,high-speed camera,image acquisition

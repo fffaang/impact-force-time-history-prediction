@@ -1,0 +1,31 @@
+id,text,x,y,w,h,size,box
+a,(a) Data and training-only selection,24,96,47,6,9,True
+archive,"189 literature histories + 10 own histories
+199 archived; 1 quarantined; 198 eligible",24,86,45,10,8,True
+split,"Locked 158 / 20 / 20 partition
+Associated specimens remain together",24,73,45,9,8,True
+training,"158 training records
+Nested three-fold anchor / shape selection
+Preprocessing and bases fitted within folds",24,58,45,13,8,True
+b,(b) Frozen prediction,75,96,47,6,9,True
+input,"17 pre-test engineering variables
+Train-fitted preprocessing
+Raw inputs or raw + 12 physics descriptors",75,85,45,10,8,True
+anchors,"Four target-specific regressors
+$\hat F_{\mathrm{max}}$: GB;  $\hat T_{\mathrm{d}}$: HGB + GB
+$\hat I$: ET + GB;  $\hat p$: ET + HGB + SVR",75,69,45,16,8,True
+identity,"Feasible log-scale reconciliation
+$\widehat{A^*}=\hat I/(\hat F_{\mathrm{max}}\hat T_{\mathrm{d}})$",75,53,45,10,8,True
+shape,"Engineering features + predicted anchors
+Peak-aligned PCA (8 scores) + ExtraTrees
+Inverse PCA and predicted peak mapping",75,38,45,13,8,True
+project,"Nonnegative force; explicit peak node
+Power adjustment to predicted area
+$\hat F(t)=\hat F_{\mathrm{max}}\hat f(t/\hat T_{\mathrm{d}})$",75,21,45,14,8,True
+c,(c) Evaluation and interpretation,24,42,47,6,9,True
+evaluate,"20 validation + 20 test records
+Five-output errors; physical-time curves
+Pulse baselines; actual-function SHAP",24,29,45,14,8,True
+limits,"Paired model comparisons across partitions
+Training-only anchor / shape diagnostics
+Engineering interpretation",24,12,45,13,8,True

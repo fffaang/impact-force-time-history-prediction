@@ -1,0 +1,24 @@
+{
+  "status": "DELIVERED_AND_VERIFIED_TARGETS_NOT_MET",
+  "delivery_QA_complete": true,
+  "verified_utc": "2026-11-02T13:13:43.993128+00:00",
+  "source": "curve_split811_implementation_20261102",
+  "destination": "curve_split811_optimization_20261102",
+  "payload_files_verified": 34413,
+  "payload_bytes_verified": 6570633534,
+  "frozen_files_verified": 63,
+  "sealed_model_files_verified": 18,
+  "final_workbook_sheets": 17,
+  "final_workbook_cells_checked": 312323,
+  "performance_targets_met": false,
+  "manuscript_main_figures_SHAP_changed": false,
+  "archive": 199,
+  "eligible": 198,
+  "split_sizes": [
+    158,
+    20,
+    20
+  ],
+  "limitations": "Archival reevaluation, not blind/unseen-source validation. Inherited metadata/source and digitization limits persist. Windows model inference parity was not separately revalidated.",
+  "checkpoint_policy": "Final neural states are contained in the model joblibs. Redundant temporary .pt checkpoints are not copied; full search caches remain on the server and in the implementation folder."
+}

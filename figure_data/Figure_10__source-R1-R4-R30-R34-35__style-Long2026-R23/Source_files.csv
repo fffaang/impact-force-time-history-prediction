@@ -1,0 +1,5 @@
+Path,Purpose
+archive_199.csv,Frozen engineering inputs/targets
+all_predictions.csv,Sealed A/B/C results
+force_histories_long.csv,Observed/predicted physical-time knots
+shap_values.csv,"Actual final five-output function SHAP, Fig.12 only"

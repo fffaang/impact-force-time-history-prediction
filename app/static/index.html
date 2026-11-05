@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>ImpactCurve | Impact Force History Prediction</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <script src="/static/plotly.min.js" defer></script>
+  <script src="/static/lucide.min.js" defer></script>
+  <script src="/static/app.js" defer></script>
+</head>
+<body>
+  <header class="app-header">
+    <div class="brand"><span class="brand-icon"><i data-lucide="activity"></i></span><div><h1>ImpactCurve</h1><p>RC impact force-time prediction</p></div></div>
+    <nav class="tabs" aria-label="Prediction mode"><button class="tab active" data-tab="single"><i data-lucide="sliders-horizontal"></i>Single case</button><button class="tab" data-tab="batch"><i data-lucide="table-2"></i>Batch prediction</button></nav>
+    <div class="header-actions"><span class="local-badge"><span></span>Local · CPU</span><button class="icon-button" id="model-info" title="Model information and validation" aria-label="Model information and validation"><i data-lucide="info"></i></button><button class="icon-button" id="shutdown" title="Stop local service" aria-label="Stop local service"><i data-lucide="power"></i></button></div>
+  </header>
+  <main id="single-view" class="workspace">
+    <aside class="input-pane">
+      <div class="pane-heading"><div><span class="section-index">01</span><h2>Engineering inputs</h2></div><div class="small-tools"><button id="import-params" class="icon-button" title="Import parameters (JSON)" aria-label="Import parameters (JSON)"><i data-lucide="folder-open"></i></button><button id="save-params" class="icon-button" title="Save parameters (JSON)" aria-label="Save parameters (JSON)"><i data-lucide="save"></i></button><button id="reset-form" class="icon-button" title="Clear parameters" aria-label="Clear parameters"><i data-lucide="rotate-ccw"></i></button></div></div>
+      <form id="parameter-form" novalidate>
+        <div class="case-row"><label for="case-name">Case name</label><input id="case-name" maxlength="100" value="New case" autocomplete="off"></div>
+        <div class="example-row"><label for="example-select">Archived case</label><select id="example-select"><option value="">Custom inputs</option></select></div>
+        <div id="field-groups"></div>
+        <div id="form-error" class="error-box" role="alert" hidden></div>
+        <div class="predict-footer"><div><span class="small-dot"></span><span id="input-status">Loading model</span></div><button class="primary-button" id="predict-button" type="submit"><i data-lucide="play"></i><span>Predict history</span></button></div>
+      </form>
+    </aside>
+    <section class="result-pane">
+      <div class="result-heading"><div><span class="section-index">02</span><h2>Prediction</h2><span id="prediction-name" class="case-tag">—</span></div><span id="prediction-state" class="result-status">Preparing</span></div>
+      <div id="anchor-grid" class="anchor-grid" aria-label="Five response descriptors"></div>
+      <div class="chart-toolbar"><div><h3>Impact force history</h3><span id="point-count"></span></div><div class="chart-actions"><div class="segmented" role="group" aria-label="Curve coordinates"><button id="physical-mode" class="active">Physical time</button><button id="normalized-mode">Normalized</button></div><button class="icon-button" id="reset-zoom" title="Reset axes" aria-label="Reset axes"><i data-lucide="scan"></i></button><button class="icon-button" id="export-png" title="Export PNG image" aria-label="Export PNG image" disabled><i data-lucide="image-down"></i></button><button class="icon-button" id="export-svg" title="Export SVG vector image" aria-label="Export SVG vector image" disabled><i data-lucide="file-image"></i></button></div></div>
+      <div class="chart-wrap"><div id="curve-chart" aria-label="Predicted impact force-time curve"></div><div id="chart-loading" hidden><span class="spinner"></span>Computing prediction</div></div>
+      <div class="export-bar"><div class="export-actions"><button class="secondary-button" id="export-csv" disabled><i data-lucide="download"></i>Curve CSV</button><button class="secondary-button" id="export-json" disabled><i data-lucide="file-json"></i>Results JSON</button><button class="secondary-button" id="compare-add" disabled><i data-lucide="layers-2"></i>Add to comparison</button></div><span id="elapsed"></span></div>
+      <div id="comparison-list" class="comparison-list" hidden></div>
+      <div id="warnings" class="warnings" aria-live="polite"></div>
+      <details class="consistency"><summary>Reconstruction consistency<span id="consistency-status">—</span><i data-lucide="chevron-down"></i></summary><div class="table-scroll"><table><thead><tr><th>Descriptor</th><th>Model output</th><th>From reconstructed curve</th><th>Unit</th></tr></thead><tbody id="consistency-table"></tbody></table></div><p id="projection-note"></p></details>
+    </section>
+  </main>
+  <main id="batch-view" class="batch-workspace" hidden>
+    <div class="batch-heading"><div><span class="section-index">01</span><h2>Batch cases</h2><span id="batch-count" class="case-tag">0 cases</span></div><div><button id="batch-template" class="secondary-button"><i data-lucide="file-down"></i>CSV template</button><button id="batch-select" class="primary-button"><i data-lucide="upload"></i><span>Import &amp; predict</span></button></div></div>
+    <div id="batch-empty" class="batch-empty"><i data-lucide="table-2"></i><h3>No batch results</h3><p>0 / 100 cases</p></div>
+    <div id="batch-error" class="error-box" role="alert" hidden></div>
+    <div id="batch-results" hidden><div class="batch-actions"><button id="batch-summary" class="secondary-button"><i data-lucide="download"></i>Anchor summary CSV</button><button id="batch-curves" class="secondary-button"><i data-lucide="download"></i>All curves CSV</button></div><div class="table-scroll"><table class="batch-table"><thead><tr><th>Case</th><th><span class="math">F<sub>max</sub></span> / kN</th><th><span class="math">T<sub>d</sub></span> / ms</th><th><span class="math">I</span> / kN·ms</th><th><span class="math">A<sup>*</sup></span></th><th><span class="math">t<sub>p</sub>/T<sub>d</sub></span></th><th>Status</th><th></th></tr></thead><tbody id="batch-table"></tbody></table></div></div>
+  </main>
+  <footer class="app-footer"><span id="model-version">Frozen model C · 20261102</span><span><i data-lucide="lock-keyhole"></i>Data stays on this device</span><span>Force kN · Time ms · Mass kg</span></footer>
+  <dialog id="info-dialog"><div class="dialog-heading"><h2>Model information</h2><button class="icon-button" id="close-info" title="Close model information" aria-label="Close model information"><i data-lucide="x"></i></button></div><div class="dialog-content"><dl><dt>Architecture</dt><dd>Four independent anchors + derived A*; PCA8 + ExtraTrees morphology</dd><dt>Partition</dt><dd>158 training / 20 validation / 20 test records; seed 20261102</dd><dt>Model seeds</dt><dd>Average predictions from 20260519, 20260520 and 20260521</dd></dl><h3>Archived performance · R²</h3><div class="table-scroll"><table><thead><tr><th>Descriptor</th><th>Validation</th><th>Test</th></tr></thead><tbody id="performance-table"></tbody></table></div><p class="model-boundary">These are aggregate results for the fixed archive partition, not confidence scores for the current case. Unseen-source generalization and design reliability have not been established. Concrete strength retains its reported definition; no automatic cube-to-cylinder conversion is applied. Impact direction, missing metadata and prior damage affect applicability.</p><p class="model-boundary">Independent outputs: F<sub>max</sub>, T<sub>d</sub>, I and t<sub>p</sub>/T<sub>d</sub>. A* = I/(F<sub>max</sub>T<sub>d</sub>). Exported histories retain native piecewise-linear nodes, including an explicit peak. Range warnings are univariate checks, not a calibrated applicability-domain score.</p><div class="model-hash"><span>Model SHA-256</span><code id="model-hash"></code></div></div></dialog>
+  <input type="file" id="params-file" accept=".json,application/json" hidden>
+  <input type="file" id="batch-file" accept=".csv,text/csv" hidden>
+  <div id="toast" class="toast" role="status" hidden></div>
+</body>
+</html>

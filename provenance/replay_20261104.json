@@ -1,0 +1,15 @@
+{
+  "split_seed": 20261104,
+  "passed": true,
+  "records": 198,
+  "heldout_records": 40,
+  "force_nonnegative": true,
+  "batch_invariant": true,
+  "input_response_fields_supplied": false,
+  "maximum_anchor_abs_error": 2.3646862246096134e-11,
+  "maximum_force_abs_error_kN": 2.944489096989855e-11,
+  "maximum_curve_R2_abs_error": 1.865174681370263e-14,
+  "model_sha256": "d7850c91a278dee81c27f0f09cc4fa4893960854aa732bb136b511997f5a2274",
+  "rtol": 1e-09,
+  "atol": 1e-08
+}
