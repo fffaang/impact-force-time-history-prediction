@@ -6,6 +6,7 @@ import os
 import shutil
 import subprocess
 import sys
+import time
 
 ROOT=Path(__file__).resolve().parents[1]
 
@@ -49,6 +50,8 @@ def main():
     run('-c',"import sys,json;sys.path.insert(0,'src');from common import fingerprint,save_json;save_json(fingerprint(),'FROZEN.json')")
     if a.device=='cuda':
         run('-c',"import torch;assert torch.cuda.is_available();x=torch.ones((32,32),device='cuda');assert float((x@x).mean())==32.;print(torch.cuda.get_device_name())")
+    (destination/'working/formal_start.json').write_text(
+        json.dumps(dict(epoch=time.time(),total_hours=48,mode='fresh_public_reproduction'))+'\n',encoding='utf-8')
     run('scripts/run_experiment.py','--stage','all','--split','all')
     print('Run stopped. Inspect acceptance.json and any budget-exhaustion records; completion is not guaranteed by process exit.')
 
