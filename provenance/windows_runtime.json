@@ -1,0 +1,172 @@
+{
+  "python_version": "3.12.14",
+  "distribution": "astral-sh/python-build-standalone",
+  "release_tag": "20260929",
+  "archive_name": "cpython-3.12.14+20260929-x86_64-pc-windows-msvc-install_only.tar.gz",
+  "archive_url": "https://github.com/astral-sh/python-build-standalone/releases/download/20260929/cpython-3.12.14%2B20260929-x86_64-pc-windows-msvc-install_only.tar.gz",
+  "sha256": "28728baf30b65e263f0b25c5a85be8226e7ab0d212fbadd6a8f0f796139fa804",
+  "checksum_url": "https://github.com/astral-sh/python-build-standalone/releases/download/20260929/SHA256SUMS",
+  "asset_id": 598637675,
+  "executable_sha256": "4796bc182e858e4440f638fe5dab250d6172745ddec84e41c6afbc192a3198f9",
+  "runtime_file_sha256": {
+    "python.exe": "4796bc182e858e4440f638fe5dab250d6172745ddec84e41c6afbc192a3198f9",
+    "python3.dll": "b7e2073456377dd773d65bc79ab0bea2091e97580ea1e6833ace21d11f2c2464",
+    "python312.dll": "20f90b7ce0d97e23c15385cd1731dfbdeabe3c50eb8d3c5c105f780dcc88f5a6",
+    "pythonw.exe": "75897e04b04785e6a21762f4c7ceb8172c05947fe05511e8d2543aa4f65c6d73",
+    "Lib/ssl.py": "039a0e3f1782e14824b1624c7ffefc2de31714b4a9994424be45a4271966097c",
+    "DLLs/_asyncio.pyd": "ee22ea91631ea464b933564bb406d1d016ec604ae5c38e9f5913bd08367bb7b6",
+    "DLLs/_bz2.pyd": "12154f0a31e575c3ba5c9c17f56d16ae6622234d92d4ff6587b6976acc914174",
+    "DLLs/_ctypes.pyd": "6d1cb04243ee4a432e7a5022afcdfd715b7af698d9c535d71e5b53ed59a9f3e4",
+    "DLLs/_ctypes_test.pyd": "8fadae1b139eec172bd8082518121fcf3fde21e475e14ffca7dbb5a02c76780a",
+    "DLLs/_decimal.pyd": "b59dde6d2764de41aef66e5792d18e16925381c666ee90ef01653000c06b5d7f",
+    "DLLs/_elementtree.pyd": "422704e8ab7cfd6e9f105c6b95891a29726bd61f4ed60daf088ea6587b7805bf",
+    "DLLs/_hashlib.pyd": "650a1df74fd0d5593fc60ea1fb8c1a94b0eaa190e94299908c7fdb31bf6618a0",
+    "DLLs/_lzma.pyd": "d29d29e3872955a4f2694b9656c7dfd5b61ad60def81f1d43c64658d35a33d5b",
+    "DLLs/_msi.pyd": "c18417f2b8a3cae27cc5ad13600d3657b6144f51ad5bfc0b5509674639d19b2d",
+    "DLLs/_multiprocessing.pyd": "61a881a107ee1267984aa75de009d8380446020896f72c74f52840721eea5671",
+    "DLLs/_overlapped.pyd": "ee0b650497e9866b14111269df944f51421794d3e2ad1072d7b4eb5aeb47c45d",
+    "DLLs/_queue.pyd": "358d9147dff0b28d2558d571818f8eb7cfd8197348a3e2124fc9df57f0ee77c0",
+    "DLLs/_socket.pyd": "32c792df3e1db857de5037eaf948769d16f0bdceb11e2a59bc0293445bfc2b16",
+    "DLLs/_sqlite3.pyd": "03efbe25a17f937372fca478d0e39a21cd88f900497e3c1bae41024f68a70882",
+    "DLLs/_ssl.pyd": "3b422bb362b140dd383be7aa635027d841aa87ba51ed82e0946a4ea192456a15",
+    "DLLs/_testbuffer.pyd": "ed6f9ed915e97ea1142af5807c831144a987bc6108e14973aaa3c15f135091c7",
+    "DLLs/_testcapi.pyd": "21190a1107ef49cc6473f25e4151aae278ab979437fb750bbf2f7be8cb51f155",
+    "DLLs/_testclinic.pyd": "8ccdf9117938a2cf5b070c04836c426525db6a6ad41036d59ff2d3c3f0d5c190",
+    "DLLs/_testconsole.pyd": "d9c146b81386303aee4490dfb933f19aadd964ee2369c1576edec406b389c8c7",
+    "DLLs/_testimportmultiple.pyd": "767844847efadf426a3585277c0583713a7320d67219aa4253038980a00b673d",
+    "DLLs/_testinternalcapi.pyd": "64518c00dfedb4693fa8fa5bc61c175663aebac8c635c44ae22cabd24e9892d3",
+    "DLLs/_testmultiphase.pyd": "b881cc9a4f43ed1226e74b2949c0e6add418e8ebfba8a57d251ca71d6916d109",
+    "DLLs/_testsinglephase.pyd": "efe92b4d6ed8fbb60f904927c0ffc2be333d01c46274c60e8651b4a1e8223c7e",
+    "DLLs/_tkinter.pyd": "8ae84c6f566b445fc0c0b68a27c7c477fea6250fb269826d3c21073decf3e336",
+    "DLLs/_uuid.pyd": "b3dcb41b3e478c9db4a581905ddd900ca7bf203ee7bfa589b7affd634d48888c",
+    "DLLs/_wmi.pyd": "2f6f78f4a9a340d29d26e1a3e06bdfd511d46f8ed9a2af3d92fcd4310b36cc5c",
+    "DLLs/_zoneinfo.pyd": "d4181ebc358358aecb62c615a1b276b44145f347b4a01824215b947a9b860759",
+    "DLLs/pyexpat.pyd": "1924fcb5ea1703d2c80d35091805ce994cfcdb8ee684461f9ed15d5b4186a7e5",
+    "DLLs/select.pyd": "d7ccdd093d3394aba3f752068188950273f0707c0c8e149b946a54a17750c7de",
+    "DLLs/unicodedata.pyd": "bc6323fc77cb8a5be904006986eb870ddc9381ba9ecdbca64f48f925e911e06c",
+    "DLLs/winsound.pyd": "6d48413b74ba0219747e912bc34e869d43a8339d43a56dfba3d1e546f7e2f774",
+    "DLLs/libcrypto-3-x64.dll": "bb6c1a2b59d69fd0d9a42adbbedc07a28fc2fdb04983dc007428acd21cbe6ee6",
+    "DLLs/libffi-8.dll": "275b914ad389c61cf3c59974ebdc33fb0a85bbce17273db405e06fcce2ebda5b",
+    "DLLs/libssl-3-x64.dll": "6a7e72d32963a04efd3e6543e6409dce6f1647b88505000d5a4155431d37f14a",
+    "DLLs/sqlite3.dll": "f5a3d1a7be9999f09902ee73e13576cd8fe82e900ccf4081f93980e875f86495",
+    "DLLs/tcl86t.dll": "a308beae8555cff5ac2aff7eaf0aef40b5fe173f047e246dc49da9a4d3ef62f9",
+    "DLLs/tk86t.dll": "20f4876506bce7f89e53570e64fd1dce30a64548326b45f372871c7019560df4",
+    "DLLs/zlib1.dll": "1dd27f0411ebb31bd148a61589cee254410915f1e6c37aa3ffa52fac71a5426c",
+    "vcruntime140.dll": "d5e4d9a3e835fa679450145d6a7d94e36573a509317111904d9b3712c30d9066",
+    "vcruntime140_1.dll": "1f2d41c4aa5db0bc33ebf7b66d72943a817d7ce6cbe880502a9403823633093f"
+  },
+  "wheels": [
+    {
+      "name": "altgraph",
+      "version": "0.17.5",
+      "filename": "altgraph-0.17.5-py2.py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/a9/ba/000a1996d4308bc65120167c21241a3b205464a2e0b58deda26ae8ac21d1/altgraph-0.17.5-py2.py3-none-any.whl",
+      "sha256": "f3a22400bce1b0c701683820ac4f3b159cd301acab067c51c653e06961600597"
+    },
+    {
+      "name": "joblib",
+      "version": "1.4.2",
+      "filename": "joblib-1.4.2-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/91/29/df4b9b42f2be0b623cbd5e2140cafcaa2bef0759a00b7b70104dcfe2fb51/joblib-1.4.2-py3-none-any.whl",
+      "sha256": "06d478d5674cbc267e7496a410ee875abd68e4340feff4490bcb7afb88060ae6"
+    },
+    {
+      "name": "numpy",
+      "version": "2.1.3",
+      "filename": "numpy-2.1.3-cp312-cp312-win_amd64.whl",
+      "url": "https://files.pythonhosted.org/packages/a6/84/fa11dad3404b7634aaab50733581ce11e5350383311ea7a7010f464c0170/numpy-2.1.3-cp312-cp312-win_amd64.whl",
+      "sha256": "0d30c543f02e84e92c4b1f415b7c6b5326cbe45ee7882b6b77db7195fb971e3a"
+    },
+    {
+      "name": "packaging",
+      "version": "26.3",
+      "filename": "packaging-26.3-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/63/34/ba1c580383c9eada3711951fef0795c80b829a078d72188184bcab9dd527/packaging-26.3-py3-none-any.whl",
+      "sha256": "d7193f7c8e4e93f444fde0262bf90af30e16fa0ad0ad44cb553c87339b23cd1c"
+    },
+    {
+      "name": "pandas",
+      "version": "2.2.3",
+      "filename": "pandas-2.2.3-cp312-cp312-win_amd64.whl",
+      "url": "https://files.pythonhosted.org/packages/29/d4/1244ab8edf173a10fd601f7e13b9566c1b525c4f365d6bee918e68381889/pandas-2.2.3-cp312-cp312-win_amd64.whl",
+      "sha256": "59ef3764d0fe818125a5097d2ae867ca3fa64df032331b7e0917cf5d7bf66b13"
+    },
+    {
+      "name": "pefile",
+      "version": "2023.2.7",
+      "filename": "pefile-2023.2.7-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/55/26/d0ad8b448476d0a1e8d3ea5622dc77b916db84c6aa3cb1e1c0965af948fc/pefile-2023.2.7-py3-none-any.whl",
+      "sha256": "da185cd2af68c08a6cd4481f7325ed600a88f6a813bad9dea07ab3ef73d8d8d6"
+    },
+    {
+      "name": "pyinstaller",
+      "version": "6.16.0",
+      "filename": "pyinstaller-6.16.0-py3-none-win_amd64.whl",
+      "url": "https://files.pythonhosted.org/packages/aa/99/2005efbc297e7813c1d6f18484aa94a1a81ce87b6a5b497c563681f4c4ea/pyinstaller-6.16.0-py3-none-win_amd64.whl",
+      "sha256": "bc10eb1a787f99fea613509f55b902fbd2d8b73ff5f51ff245ea29a481d97d41"
+    },
+    {
+      "name": "pyinstaller-hooks-contrib",
+      "version": "2026.9",
+      "filename": "pyinstaller_hooks_contrib-2026.9-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/93/fe/ded0e20de0580257d97dbabb4db7ab4d96ad8ade7d41149e66308057cf52/pyinstaller_hooks_contrib-2026.9-py3-none-any.whl",
+      "sha256": "fb3e67dd64122561724c48ad0366ac9e8c16e638b63bf7d85de03bf3fdbf06c3"
+    },
+    {
+      "name": "python-dateutil",
+      "version": "4.0.0",
+      "filename": "python_dateutil-4.0.0-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/2f/a9/52b89563d154433d79b51ed1eb4842bf7334cb2696891a7fe135618853d7/python_dateutil-4.0.0-py3-none-any.whl",
+      "sha256": "a5e246f79eb80475e691bf93862cead98decd8a498cf53ba0516fcdc0f50dc1c"
+    },
+    {
+      "name": "pytz",
+      "version": "2026.6",
+      "filename": "pytz-2026.6-py2.py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/b6/25/564f3fc5b70c1398d706c51f2b1470d0ea0b1b2f96fee67877b6f5bdf3b6/pytz-2026.6-py2.py3-none-any.whl",
+      "sha256": "7fed3fee8fd6bd4a2b7b75a8d56021d0624127bf69bd5691f115db929ac570b3"
+    },
+    {
+      "name": "pywin32-ctypes",
+      "version": "0.2.3",
+      "filename": "pywin32_ctypes-0.2.3-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/de/3d/8161f7711c017e01ac9f008dfddd9410dff3674334c233bde66e7ba65bbf/pywin32_ctypes-0.2.3-py3-none-any.whl",
+      "sha256": "8a1513379d709975552d202d942d9837758905c8d01eb82b8bcc30918929e7b8"
+    },
+    {
+      "name": "scikit-learn",
+      "version": "1.5.2",
+      "filename": "scikit_learn-1.5.2-cp312-cp312-win_amd64.whl",
+      "url": "https://files.pythonhosted.org/packages/aa/ce/c0b912f2f31aeb1b756a6ba56bcd84dd1f8a148470526a48515a3f4d48cd/scikit_learn-1.5.2-cp312-cp312-win_amd64.whl",
+      "sha256": "57cc1786cfd6bd118220a92ede80270132aa353647684efa385a74244a41e3b1"
+    },
+    {
+      "name": "scipy",
+      "version": "1.14.1",
+      "filename": "scipy-1.14.1-cp312-cp312-win_amd64.whl",
+      "url": "https://files.pythonhosted.org/packages/aa/7d/43ab67228ef98c6b5dd42ab386eae2d7877036970a0d7e3dd3eb47a0d530/scipy-1.14.1-cp312-cp312-win_amd64.whl",
+      "sha256": "2ff38e22128e6c03ff73b6bb0f85f897d2362f8c052e3b8ad00532198fbdae3f"
+    },
+    {
+      "name": "setuptools",
+      "version": "84.2.1",
+      "filename": "setuptools-84.2.1-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/ef/55/6dc6d6bb953bdfc52519a0059592c52b6e3b8ad51cf8256dffceb55b0610/setuptools-84.2.1-py3-none-any.whl",
+      "sha256": "ca140b45d5325a9478f880e351484f62fef15f336462e449ca0c03c873d589c2"
+    },
+    {
+      "name": "threadpoolctl",
+      "version": "3.7.0",
+      "filename": "threadpoolctl-3.7.0-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/43/3f/f88a53f60a472b46f4023f56d204dd7de33d34c5d2acbfa0d70a674e639e/threadpoolctl-3.7.0-py3-none-any.whl",
+      "sha256": "cd8b60b5641b45c67bbf73c64c843235fc2d8a480c87389f52f5dbee893b86be"
+    },
+    {
+      "name": "tzdata",
+      "version": "2026.6",
+      "filename": "tzdata-2026.6-py2.py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/0a/66/9a06c2227fedfd4919f0eaaa8b94377d9730882a7e4f95823c9a331ab5e1/tzdata-2026.6-py2.py3-none-any.whl",
+      "sha256": "0a10eec6e13ef16b627fabed9a5f2ba61a62b1c67f327305f4e7e412a70b4aec"
+    }
+  ]
+}

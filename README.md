@@ -2,7 +2,8 @@
 
 Numerical force histories, engineering metadata, fixed data partitions, trained models,
 and reproducible prediction code for transverse impact on reinforced-concrete members.
-Version **1.0.0**. Maintainer and dataset curator: **fffaang**.
+Dataset version **1.0.0**; software release **v1.0.1** (ImpactCurve **1.1.1**).
+Maintainer and dataset curator: **fffaang**.
 
 ## Get the force-history dataset
 
@@ -39,8 +40,10 @@ python app/app.py
 
 The English interface opens on a local loopback address. Prediction runs on CPU; no GPU,
 training step, network service, or upload of user inputs is required. The downloadable
-[Windows tool](https://github.com/fffaang/impact-force-time-history-prediction/releases/tag/v1.0.0)
+[Windows tool](https://github.com/fffaang/impact-force-time-history-prediction/releases/tag/v1.0.1)
 requires neither Python nor a GPU. It is unsigned; verify checksums before use.
+The software patch uses a clean, checksum-verified standard Python runtime and a fully
+locked Windows build environment. Dataset values, models, and predictions are unchanged.
 
 ![Local prediction interface](docs/predictor.png)
 
@@ -95,8 +98,9 @@ python scripts/verify_checksums.py
 ```
 
 Replay uses saved models without fitting and checks original per-case predictions and curves.
-The main repository contains all three final C models. Large A/B models, independent refits,
-and the portable Windows application are [Release assets](https://github.com/fffaang/impact-force-time-history-prediction/releases/tag/v1.0.0).
+The main repository contains all three final C models. Large A/B models and independent refits
+are [dataset Release assets](https://github.com/fffaang/impact-force-time-history-prediction/releases/tag/v1.0.0).
+The current portable Windows application is in [software v1.0.1](https://github.com/fffaang/impact-force-time-history-prediction/releases/tag/v1.0.1).
 Original training code, selection rules, source-block bootstrap, and scientific tests are
 included. The [reproduction guide](docs/REPRODUCIBILITY.md) describes the separate CUDA
 training environment and fresh-workspace entry point; search caches are intentionally omitted.

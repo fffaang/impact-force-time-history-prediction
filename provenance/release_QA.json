@@ -13,5 +13,16 @@
   "independent_refit_evidence": "Original completed experiment; not refitted for release",
   "literature_pointwise_verification_complete": false,
   "figure_numeric_cells_checked": 73776,
-  "public_text_and_archive_review_passed": true
+  "public_text_and_archive_review_passed": true,
+  "software_patch": {
+    "release": "v1.0.1",
+    "application": "ImpactCurve-1.1.1",
+    "primary_record_replays": 198,
+    "primary_heldout_histories": 40,
+    "protected_scientific_files_unchanged": 432,
+    "standard_runtime_verified": true,
+    "pypi_wheels_verified": 16,
+    "runtime_dependency_and_embedded_code_review_passed": true,
+    "previous_full_scientific_checks_retained_not_rerun": true
+  }
 }

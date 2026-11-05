@@ -33,12 +33,23 @@ the PyTorch training implementation and verified against stored outputs. Both us
 unchanged saved estimator bytes. Only load the trusted distributed model; joblib/pickle
 files can execute code and are unsafe from untrusted sources.
 
-Windows: download the portable ZIP from the v1.0.0 Release, retain the adjacent `_internal`
+Windows: download the portable ZIP from the [v1.0.1 Release](https://github.com/fffaang/impact-force-time-history-prediction/releases/tag/v1.0.1), retain the adjacent `_internal`
 folder, and launch `Start_Predictor.cmd`. The executable is unsigned. Closing the browser
 does not stop the local service; use its stop control. Check the asset and file checksums.
 
-To rebuild on Windows x64, create a clean Python 3.12 environment, install
-`requirements-build-windows.txt`, and run `python scripts/build_windows.py`.
-The script stages the same model with portable resource paths and retains third-party
-notices. The distributed executable is the previously validated build; this new portable
-build entry point is provided as source and is not claimed to produce a byte-identical EXE.
+To rebuild on Windows x64, use the exact standard CPython 3.12.14 archive and SHA-256 in
+`provenance/windows_runtime.json`. Verify the archive against its upstream checksum file
+before extracting it. Create a fresh virtual environment from that interpreter, without
+system packages, unset `PYTHONPATH` and `PYTHONHOME`, and set `PYTHONNOUSERSITE=1`.
+
+```shell
+python -m pip install --require-hashes -r requirements-build-windows.lock
+python scripts/build_windows.py --output output/windows_build
+```
+
+The builder verifies the runtime files, exact dependency versions, and absence of extra
+packages before staging the unchanged model. It retains third-party notices and records
+runtime, dependency-lock, and model hashes. The v1.0.1 application was built through this
+entry point and independently checked against all 198 primary predictions and 40 heldout
+histories. Build timestamps can differ, so a later build is not claimed to have an identical
+EXE hash. Dataset version 1.0.0 and its separate data/model assets are unchanged.

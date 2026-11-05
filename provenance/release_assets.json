@@ -24,9 +24,9 @@
     "url": "https://github.com/fffaang/impact-force-time-history-prediction/releases/download/v1.0.0/impact_models_controls_20261104_v1.0.0.zip"
   },
   {
-    "name": "ImpactCurve_Predictor_Windows_x64_v1.0.0.zip",
-    "bytes": 99218629,
-    "sha256": "50a7dc364c873515d36f53b743f5fac3b3018ed30562d0b315fcb33a94fd7bd8",
-    "url": "https://github.com/fffaang/impact-force-time-history-prediction/releases/download/v1.0.0/ImpactCurve_Predictor_Windows_x64_v1.0.0.zip"
+    "name": "ImpactCurve_Predictor_Windows_x64_v1.0.1.zip",
+    "bytes": 89590222,
+    "sha256": "b03ab670a65d2466d2569be02d44d9f05280b331ef90023e96147f577b69a5bd",
+    "url": "https://github.com/fffaang/impact-force-time-history-prediction/releases/download/v1.0.1/ImpactCurve_Predictor_Windows_x64_v1.0.1.zip"
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "version": "ImpactCurve-1.1.0",
+  "version": "ImpactCurve-1.1.1",
   "model": "Frozen model C",
   "primary_partition": 20261102,
   "training_records": 158,

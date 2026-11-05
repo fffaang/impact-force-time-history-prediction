@@ -1,8 +1,24 @@
 {
   "passed": true,
-  "complete_fields": 17,
-  "example": "C2.5-L-2167-4.71",
-  "version": "ImpactCurve-1.1.0",
+  "version": "ImpactCurve-1.1.1",
+  "records": 198,
+  "heldout_records": 40,
+  "complete_example_fields": 17,
+  "curve_and_batch_csv_passed": true,
+  "static_ui_unchanged": true,
+  "host_origin_token_response_boundary_passed": true,
+  "force_nonnegative": true,
+  "anchor_identity_passed": true,
+  "maximum_anchor_abs_error": 5.4569682106375694e-12,
+  "maximum_force_abs_error_kN": 1.2732925824820995e-11,
   "model_sha256": "ab8d841fc306e3de89c6e2c145505537f8105b6e36374d1d2bf49ee91f759f4d",
-  "model_and_executable_changed": false
+  "rtol": 1e-09,
+  "atol": 1e-08,
+  "executable_rebuilt": true,
+  "original_model_unchanged": true,
+  "native_dependencies_upstream_byte_identical": 244,
+  "embedded_modules_reviewed": 1376,
+  "embedded_code_objects_reviewed": 37382,
+  "embedded_string_constants_reviewed": 82415,
+  "package_content_review_passed": true
 }
